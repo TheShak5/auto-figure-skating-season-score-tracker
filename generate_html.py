@@ -20,6 +20,7 @@ html_content = f"""
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css" />
     <title>Skaters Points Table</title>
     <style>
         table {{ border-collapse: collapse; width: 80%; margin: auto; }}
@@ -31,6 +32,7 @@ html_content = f"""
     </style>
 </head>
 <body>
+    <script src="cascade.js"></script>
     <div class="container">
         <button onclick="setCategory('SeniorMen')">Senior Men</button>
         <button onclick="setCategory('SeniorWomen')">Senior Women</button>
