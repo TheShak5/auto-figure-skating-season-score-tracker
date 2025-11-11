@@ -3,35 +3,55 @@ from bs4 import BeautifulSoup
 import yaml
 
 # URL of the page
-url = 'https://www.isuresults.com/results/season2526/gpcan2025/CAT001RS.htm'
+url_list = ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT001RS.htm', 
+       'https://www.isuresults.com/results/season2526/gpcan2025/CAT001RS.htm']
 
-# Fetch the page content
-response = requests.get(url)
-response.raise_for_status()  # Check that request was successful
+competition_ID = ['NHK25', 'SCI25']
+skater_data = []
 
-# Parse with BeautifulSoup
-soup = BeautifulSoup(response.text, 'html.parser')
+for url, comp_id in zip(url_list,competition_ID):
+    # Fetch the page content
+    response = requests.get(url)
+    response.raise_for_status()  # Check that request was successful
 
-# Inspecting the structure of the attached page,
-# skater names appear to be in table rows <tr> within <td> tags in a results table.
-# Usually, the second or third column contains the name
+    # Parse with BeautifulSoup
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-# Find the results table (usually the first or only table on that page)
-table = soup.find('table')
+    # Inspecting the structure of the attached page,
+    # skater names appear to be in table rows <tr> within <td> tags in a results table.
+    # Usually, the second or third column contains the name
 
-# Extract the skater names
-skater_names = []
-for row in table.find_all('tr')[1:]:  # skip the header row
-    cols = row.find_all('td')
-    if len(cols) > 2:
-        name = cols[2].get_text(strip=True)
-        skater_names.append(name)
+    main_table = soup.find("table")
+    rows = main_table.find_all("tr")[1:]  # skip header row
 
-# If desired, write to a YAML file
-data = {'skaters': skater_names}
-# with open('skater_names.yaml', 'w') as f:
-#     yaml.dump(data, f)
+    for row in rows:
+        tds = row.find_all("td", recursive=False)
 
-print(f"Extracted {len(skater_names)} skater names:")
-for name in skater_names:
-    print(name)
+        if len(tds) >= 4:
+            # Extract skater name
+            name_tag = tds[1].find("a")
+            name = name_tag.get_text(strip=True) if name_tag else None
+            # print(name)
+
+            # Extract country code from nested table in third <td>
+            country_td = tds[2]
+            nested_table = country_td.find("table")
+            country_code = None
+            if nested_table:
+                nested_tr = nested_table.find("tr")
+                country_code = nested_tr.get_text(strip=True)
+                # print(country_code)
+
+            # Extract points (fourth <td>)
+            points = tds[3].get_text(strip=True)
+            # print(points)
+
+            skater_data.append({
+                "name": name,
+                "country": country_code,
+                "points": points,
+                "compID": comp_id
+            })
+
+with open("skaters_men.yaml", "w") as f:
+    yaml.dump({"skaters": skater_data}, f)
