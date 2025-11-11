@@ -23,6 +23,7 @@ html_content = """
     </style>
 </head>
 <body>
+    <a href="test.html" class="linkstyle">test</a>
     <table>
         <caption>Skaters Ranked by Points (Highest to Lowest)</caption>
         <thead>
