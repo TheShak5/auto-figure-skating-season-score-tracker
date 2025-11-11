@@ -52,6 +52,6 @@ for url, comp_id in zip(url_list,competition_ID):
                 "points": points,
                 "compID": comp_id
             })
-
-with open("skaters_men.yaml", "w") as f:
+            
+with open("skaters_men.yml", "w") as f:
     yaml.dump({"skaters": skater_data}, f)
