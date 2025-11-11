@@ -29,8 +29,8 @@ html_content = f"""
         <button onclick="setCategory('Senior Ice Dance')">Senior Ice Dance</button>
     </div>
     <div class="container">
-        <button onclick="showAllScores()">Show All Scores</button>
-        <button onclick="showUniqueHighest()">Show Unique Highest Score</button>
+        <button onclick="setMode('all')">Show All Scores</button>
+        <button onclick="setMode('unique')">Show Unique Highest Score</button>
     </div>
     <table>
         <caption>Skaters Scores and Rankings</caption>
@@ -49,6 +49,7 @@ html_content = f"""
     <script>
         const skaters = {data_json};
         let selectedCategory = 'Senior Men'; // store currently selected category
+        let selectedMode = 'all'; // default mode
 
         function setCategory(category){{
             selectedCategory = category;
@@ -77,28 +78,30 @@ html_content = f"""
             }});
         }}
 
-        function showAllScores(){{
-            const filtered = getFilteredSkaters();
-            const sorted = [...filtered].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
-            renderTable(sorted);
-        }}       
+        function updateTable(){{
+        const filtered = getFilteredSkaters();
 
-
-        function showUniqueHighest(){{
-            const filtered = getFilteredSkaters();
-            const uniqueMap = new Map();
-            filtered.forEach(s =>{{
+        let dataToShow;
+        if (selectedMode === 'unique'){{
+        // Show only unique highest per skater
+        const uniqueMap = new Map();
+        filtered.forEach(s =>{{
             if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
-                uniqueMap.set(s.name, s);
+            uniqueMap.set(s.name, s);
             }}
-            }});
-            const uniqueArray = Array.from(uniqueMap.values());
-            uniqueArray.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
-            renderTable(uniqueArray);
-        }} 
+        }});
+        dataToShow = Array.from(uniqueMap.values());
+        }} else {{
+            dataToShow = [...filtered];
+        }}
 
-        // Initial render with all scores
-        showAllScores();
+        // Sort by points descending
+        dataToShow.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+        renderTable(dataToShow);
+        }}
+
+        // Initial render
+        updateTable();
     </script>
 </body>
 </html>
