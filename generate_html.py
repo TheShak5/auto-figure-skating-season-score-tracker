@@ -63,6 +63,22 @@ html_content = f"""
         return skaters;
         }}
 
+        function setMode(mode){{
+            selectedMode = mode;
+
+            // Highlight active mode
+            const buttons = document.querySelectorAll('#mode-buttons button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            const clickedButton = Array.from(buttons).find(btn =>
+            mode === 'all'
+                ? btn.textContent.includes('All Scores')
+                : btn.textContent.includes('Unique Highest')
+            );
+            if (clickedButton) clickedButton.classList.add('active');
+
+            updateTable(); // refresh view with current mode + category
+        }}
+
         function renderTable(data) {{
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = '';
