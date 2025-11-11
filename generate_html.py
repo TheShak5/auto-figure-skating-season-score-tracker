@@ -49,36 +49,25 @@ html_content = f"""
     <script>
         const skaters = {data_json};
         let selectedCategory = 'Senior Men'; // store currently selected category
-        let selectedMode = 'all'; // default mode
+        let selectedMode = 'all'; // 'all' or 'unique'
 
         function setCategory(category){{
             selectedCategory = category;
-        }}
-
-        function getFilteredSkaters(){{
-        // If a category is selected, filter by it
-        if (selectedCategory){{
-            return skaters.filter(s => s.category === selectedCategory);
-        }}
-        return skaters;
+            updateTable();
         }}
 
         function setMode(mode){{
             selectedMode = mode;
-
-            // Highlight active mode
-            const buttons = document.querySelectorAll('#mode-buttons button');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            const clickedButton = Array.from(buttons).find(btn =>
-            mode === 'all'
-                ? btn.textContent.includes('All Scores')
-                : btn.textContent.includes('Unique Highest')
-            );
-            if (clickedButton) clickedButton.classList.add('active');
-
-            updateTable(); // refresh view with current mode + category
+            updateTable();
         }}
 
+        function getFilteredSkaters(){{
+            if (selectedCategory){{
+            return skaters.filter(s => s.category === selectedCategory);
+            }}
+            return skaters;
+        }}
+        
         function renderTable(data) {{
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = '';
@@ -95,27 +84,26 @@ html_content = f"""
         }}
 
         function updateTable(){{
-        const filtered = getFilteredSkaters();
+            let filtered = getFilteredSkaters();
+            let dataToShow = [];
 
-        let dataToShow;
-        if (selectedMode === 'unique'){{
-        // Show only unique highest per skater
-        const uniqueMap = new Map();
-        filtered.forEach(s =>{{
-            if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
-            uniqueMap.set(s.name, s);
+            if (selectedMode === 'unique'){{
+            const uniqueMap = new Map();
+            filtered.forEach(s =>{{
+                if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
+                uniqueMap.set(s.name, s);
+                }}
+            }});
+            dataToShow = Array.from(uniqueMap.values());
+            }} else {{
+                dataToShow = [...filtered];
             }}
-        }});
-        dataToShow = Array.from(uniqueMap.values());
-        }} else {{
-            dataToShow = [...filtered];
+
+            dataToShow.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(dataToShow);
         }}
 
-        // Sort by points descending
-        dataToShow.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
-        renderTable(dataToShow);
-        }}
-
+  
         // Initial render
         updateTable();
     </script>
