@@ -34,7 +34,7 @@ html_content = f"""
                 <th>Name</th>
                 <th>Country</th>
                 <th>Points</th>
-                <th>Competition ID</th>
+                <th>Competition</th>
             </tr>
         </thead>
         <tbody id="tableBody"></tbody>
