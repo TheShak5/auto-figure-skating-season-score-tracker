@@ -30,8 +30,8 @@ html_content = """
                 <th>Rank</th>
                 <th>Name</th>
                 <th>Country</th>
-                <th>Competition ID</th>
                 <th>Points</th>
+                <th>Competition ID</th>
             </tr>
         </thead>
         <tbody>
@@ -44,8 +44,8 @@ for rank, skater in enumerate(sorted_skaters, start=1):
                 <td>{rank}</td>
                 <td>{skater['name']}</td>
                 <td>{skater['country']}</td>
-                <td>{skater['compID']}</td>
                 <td>{skater['points']}</td>
+                <td>{skater['compID']}</td>
             </tr>
     """
 
