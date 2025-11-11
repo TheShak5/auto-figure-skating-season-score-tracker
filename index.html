@@ -8,11 +8,17 @@
         th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
         th { background-color: #f2f2f2; }
         caption { font-size: 1.5em; margin: 10px; }
+        button { margin: 10px; padding: 10px 15px; }
+        .container { text-align: center; margin-bottom: 20px; }
     </style>
 </head>
 <body>
+    <div class="container">
+        <button onclick="showAllScores()">Show All Scores</button>
+        <button onclick="showUniqueHighest()">Show Unique Highest Score</button>
+    </div>
     <table>
-        <caption>Skaters Ranked by Points (Highest to Lowest)</caption>
+        <caption>Skaters Scores and Rankings</caption>
         <thead>
             <tr>
                 <th>Rank</th>
@@ -22,201 +28,46 @@
                 <th>Competition ID</th>
             </tr>
         </thead>
-        <tbody>
-
-            <tr>
-                <td>1</td>
-                <td>Ilia MALININ</td>
-                <td>USA</td>
-                <td>333.81</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>2</td>
-                <td>Yuma KAGIYAMA</td>
-                <td>JPN</td>
-                <td>287.24</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>3</td>
-                <td>Shun SATO</td>
-                <td>JPN</td>
-                <td>285.71</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>4</td>
-                <td>Aleksandr SELEVKO</td>
-                <td>EST</td>
-                <td>257.21</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>5</td>
-                <td>Kao MIURA</td>
-                <td>JPN</td>
-                <td>253.69</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>6</td>
-                <td>Kazuki TOMONO</td>
-                <td>JPN</td>
-                <td>251.46</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>7</td>
-                <td>Nika EGADZE</td>
-                <td>GEO</td>
-                <td>247.95</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>8</td>
-                <td>Lukas BRITSCHGI</td>
-                <td>SUI</td>
-                <td>246.94</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>9</td>
-                <td>Boyang JIN</td>
-                <td>CHN</td>
-                <td>239.05</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>10</td>
-                <td>Nikolaj MEMOLA</td>
-                <td>ITA</td>
-                <td>238.20</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>11</td>
-                <td>Roman SADOVSKY</td>
-                <td>CAN</td>
-                <td>236.73</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>12</td>
-                <td>Stephen GOGOLEV</td>
-                <td>CAN</td>
-                <td>236.48</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>13</td>
-                <td>Tomoki HIWATASHI</td>
-                <td>USA</td>
-                <td>230.58</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>14</td>
-                <td>Junhwan CHA</td>
-                <td>KOR</td>
-                <td>230.26</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>15</td>
-                <td>Kevin AYMOZ</td>
-                <td>FRA</td>
-                <td>230.10</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>16</td>
-                <td>Adam HAGARA</td>
-                <td>SVK</td>
-                <td>230.00</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>17</td>
-                <td>Matteo RIZZO</td>
-                <td>ITA</td>
-                <td>229.60</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>18</td>
-                <td>Francois PITOT</td>
-                <td>FRA</td>
-                <td>229.47</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>19</td>
-                <td>Vladimir SAMOILOV</td>
-                <td>POL</td>
-                <td>225.33</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>20</td>
-                <td>Aleksa RAKIC</td>
-                <td>CAN</td>
-                <td>216.90</td>
-                <td>SCI25</td>
-            </tr>
-    
-            <tr>
-                <td>21</td>
-                <td>Andrew TORGASHEV</td>
-                <td>USA</td>
-                <td>212.01</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>22</td>
-                <td>Jimmy MA</td>
-                <td>USA</td>
-                <td>208.56</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>23</td>
-                <td>Gabriele FRANGIPANI</td>
-                <td>ITA</td>
-                <td>204.64</td>
-                <td>NHK25</td>
-            </tr>
-    
-            <tr>
-                <td>24</td>
-                <td>Haru KAKIUCHI</td>
-                <td>JPN</td>
-                <td>186.40</td>
-                <td>NHK25</td>
-            </tr>
-    
-        </tbody>
+        <tbody id="tableBody"></tbody>
     </table>
+
+    <script>
+        const skaters = [{"compID": "NHK25", "country": "JPN", "name": "Yuma KAGIYAMA", "points": "287.24"}, {"compID": "NHK25", "country": "JPN", "name": "Shun SATO", "points": "285.71"}, {"compID": "NHK25", "country": "SUI", "name": "Lukas BRITSCHGI", "points": "246.94"}, {"compID": "NHK25", "country": "CHN", "name": "Boyang JIN", "points": "239.05"}, {"compID": "NHK25", "country": "KOR", "name": "Junhwan CHA", "points": "230.26"}, {"compID": "NHK25", "country": "SVK", "name": "Adam HAGARA", "points": "230.00"}, {"compID": "NHK25", "country": "ITA", "name": "Matteo RIZZO", "points": "229.60"}, {"compID": "NHK25", "country": "FRA", "name": "Francois PITOT", "points": "229.47"}, {"compID": "NHK25", "country": "USA", "name": "Andrew TORGASHEV", "points": "212.01"}, {"compID": "NHK25", "country": "USA", "name": "Jimmy MA", "points": "208.56"}, {"compID": "NHK25", "country": "ITA", "name": "Gabriele FRANGIPANI", "points": "204.64"}, {"compID": "NHK25", "country": "JPN", "name": "Haru KAKIUCHI", "points": "186.40"}, {"compID": "SCI25", "country": "USA", "name": "Ilia MALININ", "points": "333.81"}, {"compID": "SCI25", "country": "EST", "name": "Aleksandr SELEVKO", "points": "257.21"}, {"compID": "SCI25", "country": "JPN", "name": "Kao MIURA", "points": "253.69"}, {"compID": "SCI25", "country": "JPN", "name": "Kazuki TOMONO", "points": "251.46"}, {"compID": "SCI25", "country": "GEO", "name": "Nika EGADZE", "points": "247.95"}, {"compID": "SCI25", "country": "ITA", "name": "Nikolaj MEMOLA", "points": "238.20"}, {"compID": "SCI25", "country": "CAN", "name": "Roman SADOVSKY", "points": "236.73"}, {"compID": "SCI25", "country": "CAN", "name": "Stephen GOGOLEV", "points": "236.48"}, {"compID": "SCI25", "country": "USA", "name": "Tomoki HIWATASHI", "points": "230.58"}, {"compID": "SCI25", "country": "FRA", "name": "Kevin AYMOZ", "points": "230.10"}, {"compID": "SCI25", "country": "POL", "name": "Vladimir SAMOILOV", "points": "225.33"}, {"compID": "SCI25", "country": "CAN", "name": "Aleksa RAKIC", "points": "216.90"}];
+
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            data.forEach((skater, index) => {
+                const row = `<tr>
+                    <td>${index + 1}</td>
+                    <td>${skater.name}</td>
+                    <td>${skater.country}</td>
+                    <td>${skater.points}</td>
+                    <td>${skater.compID}</td>
+                </tr>`;
+                tbody.insertAdjacentHTML('beforeend', row);
+            });
+        }
+
+        function showAllScores() {
+            const sorted = [...skaters].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(sorted);
+        }
+
+        function showUniqueHighest() {
+            const uniqueMap = new Map();
+            skaters.forEach(s => {
+                if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)) {
+                    uniqueMap.set(s.name, s);
+                }
+            });
+            const uniqueArray = Array.from(uniqueMap.values());
+            uniqueArray.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(uniqueArray);
+        }
+
+        // Initial render with all scores
+        showAllScores();
+    </script>
 </body>
 </html>

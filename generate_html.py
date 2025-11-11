@@ -1,31 +1,33 @@
 import yaml
+import json
 
-# Parse YAML
-# data = yaml.safe_load(yaml_data)
 with open('skaters_men.yaml', 'r') as file:
     yaml_skater_data = yaml.safe_load(file)
 
+# Embed the full data as JSON string for JavaScript
+data_json = json.dumps(yaml_skater_data['skaters'])
 
-# Sort skaters by points (convert points string to float for sorting)
-sorted_skaters = sorted(yaml_skater_data['skaters'], key=lambda x: float(x['points']), reverse=True)
-
-# Generate HTML table
-html_content = """
+html_content = f"""
 <!DOCTYPE html>
 <html>
 <head>
     <title>Skaters Points Table</title>
     <style>
-        table { border-collapse: collapse; width: 80%; margin: auto; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-        th { background-color: #f2f2f2; }
-        caption { font-size: 1.5em; margin: 10px; }
+        table {{ border-collapse: collapse; width: 80%; margin: auto; }}
+        th, td {{ border: 1px solid #ddd; padding: 8px; text-align: center; }}
+        th {{ background-color: #f2f2f2; }}
+        caption {{ font-size: 1.5em; margin: 10px; }}
+        button {{ margin: 10px; padding: 10px 15px; }}
+        .container {{ text-align: center; margin-bottom: 20px; }}
     </style>
 </head>
 <body>
-    <a href="test.html" class="linkstyle">test</a>
+    <div class="container">
+        <button onclick="showAllScores()">Show All Scores</button>
+        <button onclick="showUniqueHighest()">Show Unique Highest Score</button>
+    </div>
     <table>
-        <caption>Skaters Ranked by Points (Highest to Lowest)</caption>
+        <caption>Skaters Scores and Rankings</caption>
         <thead>
             <tr>
                 <th>Rank</th>
@@ -35,29 +37,50 @@ html_content = """
                 <th>Competition ID</th>
             </tr>
         </thead>
-        <tbody>
-"""
-
-# Add table rows
-for rank, skater in enumerate(sorted_skaters, start=1):
-    html_content += f"""
-            <tr>
-                <td>{rank}</td>
-                <td>{skater['name']}</td>
-                <td>{skater['country']}</td>
-                <td>{skater['points']}</td>
-                <td>{skater['compID']}</td>
-            </tr>
-    """
-
-# Closing tags
-html_content += """
-        </tbody>
+        <tbody id="tableBody"></tbody>
     </table>
+
+    <script>
+        const skaters = {data_json};
+
+        function renderTable(data) {{
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            data.forEach((skater, index) => {{
+                const row = `<tr>
+                    <td>${{index + 1}}</td>
+                    <td>${{skater.name}}</td>
+                    <td>${{skater.country}}</td>
+                    <td>${{skater.points}}</td>
+                    <td>${{skater.compID}}</td>
+                </tr>`;
+                tbody.insertAdjacentHTML('beforeend', row);
+            }});
+        }}
+
+        function showAllScores() {{
+            const sorted = [...skaters].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(sorted);
+        }}
+
+        function showUniqueHighest() {{
+            const uniqueMap = new Map();
+            skaters.forEach(s => {{
+                if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)) {{
+                    uniqueMap.set(s.name, s);
+                }}
+            }});
+            const uniqueArray = Array.from(uniqueMap.values());
+            uniqueArray.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(uniqueArray);
+        }}
+
+        // Initial render with all scores
+        showAllScores();
+    </script>
 </body>
 </html>
 """
 
-# Write to index.html
 with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
