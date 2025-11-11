@@ -1,0 +1,99 @@
+/* General background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container for centering */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 0.1);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  font-size: 16px;
+}
+
+thead tr {
+  background: #1e88e5;
+  color: white;
+  text-align: left;
+  border-radius: 8px;
+}
+
+thead th {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  background: #ffffff;
+  box-shadow: 0 5px 15px rgb(30 136 229 / 0.1);
+  cursor: default;
+  opacity: 0; /* Start hidden for animation */
+  transform: translateY(-10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  border-radius: 6px;
+}
+
+tbody tr.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Button styles */
+button {
+  background-color: #1e88e5;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px 20px 0;
+  color: white;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgb(30 136 229 / 0.3);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+button:active {
+  background-color: #0d47a1;
+}
+
+/* Animation cascade with delay by CSS variable */
+tbody tr {
+  animation-name: cascadeDown;
+  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: calc(var(--delay) * 0.1s);
+}
+
+@keyframes cascadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
