@@ -40,22 +40,23 @@ url_list_pairs = ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT00
             'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT003RS.htm',
             'https://results.isu.org/results/season2526/qogfsk2025/CAT003RS.htm']
 
-url_list_icedance = ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT004RS.htm',
-            'https://www.isuresults.com/results/season2526/gpcan2025/CAT004RS.htm',
-            'https://www.isuresults.com/results/season2526/gpchn2025/CAT004RS.htm',
-            'https://results.isu.org/results/season2526/gpfra2025/CAT004RS.htm',
-            'https://www.jsfresults.com/InterNational/2025-2026/csjpn2025/CAT004RS.htm',
-            'https://www.fisg.it/upload/result/6845/online/CAT004RS.htm',
-            'https://www.kraso.sk/wp-content/uploads/sutaze/2025_2026/MON25/CAT003RS.htm',
-            'http://www.deu-event.de/results/Nebelhorn_2025/CSGER2025/CAT004RS.htm',
-            'https://turnir.rline.kz/2025/cskaz2025/CAT003RS.htm',
-            'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT004RS.htm',
-            'https://results.isu.org/results/season2526/qogfsk2025/CAT004RS.htm']
+url_list_icedance = []
+# ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT004RS.htm',
+#             'https://www.isuresults.com/results/season2526/gpcan2025/CAT004RS.htm',
+#             'https://www.isuresults.com/results/season2526/gpchn2025/CAT004RS.htm',
+#             'https://results.isu.org/results/season2526/gpfra2025/CAT004RS.htm',
+#             'https://www.jsfresults.com/InterNational/2025-2026/csjpn2025/CAT004RS.htm',
+#             'https://www.fisg.it/upload/result/6845/online/CAT004RS.htm',
+#             'https://www.kraso.sk/wp-content/uploads/sutaze/2025_2026/MON25/CAT003RS.htm',
+#             'http://www.deu-event.de/results/Nebelhorn_2025/CSGER2025/CAT004RS.htm',
+#             'https://turnir.rline.kz/2025/cskaz2025/CAT003RS.htm',
+#             'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT004RS.htm',
+#             'https://results.isu.org/results/season2526/qogfsk2025/CAT004RS.htm']
 
 competition_ID_men = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 competition_ID_women = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 competition_ID_pairs = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'John Nicks Pairs Challenge Inter. 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nebelhorn Trophy 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
-competition_ID_icedance = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_icedance = [] #['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 
 url_list_combined = [url_list_men, url_list_women, url_list_pairs, url_list_icedance]
 competition_ID_list_combined = [competition_ID_men, competition_ID_women, competition_ID_pairs, competition_ID_icedance]
