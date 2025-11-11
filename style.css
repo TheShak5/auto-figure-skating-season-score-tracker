@@ -97,3 +97,21 @@ tbody tr {
     transform: translateY(0);
   }
 }
+
+.gold-row {
+  background-color: #ffd700; /* gold */
+  color: #333;
+  font-weight: bold;
+}
+
+.silver-row {
+  background-color: #c0c0c0; /* silver */
+  color: #333;
+  font-weight: bold;
+}
+
+.bronze-row {
+  background-color: #cd7f32; /* bronze */
+  color: #fff;
+  font-weight: bold;
+}
