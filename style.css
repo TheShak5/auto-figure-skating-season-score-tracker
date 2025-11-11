@@ -82,9 +82,9 @@ button:active {
 tbody tr {
   animation-name: cascadeDown;
   animation-fill-mode: forwards;
-  animation-duration: 3s; /* increased duration for slower animation */
+  animation-duration: 1s; /* increased duration for slower animation */
   animation-timing-function: ease-in-out; /* smoother easing */
-  animation-delay: calc(var(--delay) * 1s); /* increase delay step for more spacing */
+  animation-delay: calc(var(--delay) * 0.3s); /* increase delay step for more spacing */
 }
 
 @keyframes cascadeDown {
@@ -96,22 +96,4 @@ tbody tr {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.gold-row {
-  background-color: #ffd700; /* gold */
-  color: #333;
-  font-weight: bold;
-}
-
-.silver-row {
-  background-color: #c0c0c0; /* silver */
-  color: #333;
-  font-weight: bold;
-}
-
-.bronze-row {
-  background-color: #cd7f32; /* bronze */
-  color: #fff;
-  font-weight: bold;
 }
