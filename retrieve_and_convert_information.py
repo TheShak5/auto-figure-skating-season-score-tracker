@@ -6,9 +6,10 @@ import yaml
 url_list = ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpcan2025/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpchn2025/CAT001RS.htm',
-            'https://results.isu.org/results/season2526/gpfra2025/CAT001RS.htm']
+            'https://results.isu.org/results/season2526/gpfra2025/CAT001RS.htm',
+           'https://ijs.usfigureskating.org/leaderboard/results/2025/36369/CAT001RS.htm']
 
-competition_ID = ['NHK25', 'SCI25', 'CoC25', 'GPFra25'] 
+competition_ID = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'CranberryCup'] 
 skater_data = []
 
 for url, comp_id in zip(url_list,competition_ID):
