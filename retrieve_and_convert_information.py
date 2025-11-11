@@ -49,11 +49,14 @@ for url, comp_id in zip(url_list,competition_ID):
             points = tds[3].get_text(strip=True)
             # print(points)
 
+            catgeory = "Senior Men"
+            
             skater_data.append({
                 "name": name,
                 "country": country_code,
                 "points": points,
-                "compID": comp_id
+                "compID": comp_id,
+                "category": catgeory
             })
             
 with open("skaters_men.yaml", "w") as f:

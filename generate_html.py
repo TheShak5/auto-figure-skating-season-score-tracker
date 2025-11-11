@@ -1,7 +1,7 @@
 import yaml
 import json
 
-with open('skaters_men.yaml', 'r') as file:
+with open('skaters.yaml', 'r') as file:
     yaml_skater_data = yaml.safe_load(file)
 
 # Embed the full data as JSON string for JavaScript
@@ -22,6 +22,12 @@ html_content = f"""
     </style>
 </head>
 <body>
+    <div class="container">
+        <button onclick="showAllScoresGivenCategory(category=men)">Senior Men</button>
+        <button onclick="showAllScoresGivenCategory(category=women)">Senior Women</button>
+        <button onclick="showAllScoresGivenCategory(category=pairs)">Senior Pairs</button>
+        <button onclick="showAllScoresGivenCategory(category=icedance)">Senior Ice Dance</button>
+    </div>
     <div class="container">
         <button onclick="showAllScores()">Show All Scores</button>
         <button onclick="showUniqueHighest()">Show Unique Highest Score</button>
@@ -56,6 +62,14 @@ html_content = f"""
                 </tr>`;
                 tbody.insertAdjacentHTML('beforeend', row);
             }});
+        }}
+
+        function showAllScoresGivenCategory() {{
+            // Filter by category
+            const filtered = skaters.filter(skater => skater.category === category);
+
+            const sorted = [...filtered].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+            renderTable(sorted);
         }}
 
         function showAllScores() {{
