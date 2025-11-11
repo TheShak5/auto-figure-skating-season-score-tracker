@@ -1,11 +1,20 @@
 import yaml
 import json
 
-with open('skaters.yaml', 'r') as file:
-    yaml_skater_data = yaml.safe_load(file)
-
+with open('skaters_SeniorMen.yaml', 'r') as file:
+    yaml_skater_data_men = yaml.safe_load(file)
+with open('skaters_SeniorWomen.yaml', 'r') as file:
+    yaml_skater_data_women = yaml.safe_load(file)
+with open('skaters_SeniorPairs.yaml', 'r') as file:
+    yaml_skater_data_pairs = yaml.safe_load(file)
+with open('skaters_SeniorIceDance.yaml', 'r') as file:
+    yaml_skater_data_icedance = yaml.safe_load(file)
+    
 # Embed the full data as JSON string for JavaScript
-data_json = json.dumps(yaml_skater_data['skaters'])
+data_json_men = json.dumps(yaml_skater_data_men['skaters'])
+data_json_women = json.dumps(yaml_skater_data_women['skaters'])
+data_json_pairs = json.dumps(yaml_skater_data_pairs['skaters'])
+data_json_icedance = json.dumps(yaml_skater_data_icedance['skaters'])
 
 html_content = f"""
 <!DOCTYPE html>
@@ -23,10 +32,10 @@ html_content = f"""
 </head>
 <body>
     <div class="container">
-        <button onclick="setCategory('Senior Men')">Senior Men</button>
-        <button onclick="setCategory('Senior Women')">Senior Women</button>
-        <button onclick="setCategory('Senior Pairs')">Senior Pairs</button>
-        <button onclick="setCategory('Senior Ice Dance')">Senior Ice Dance</button>
+        <button onclick="setCategory('SeniorMen')">Senior Men</button>
+        <button onclick="setCategory('SeniorWomen')">Senior Women</button>
+        <button onclick="setCategory('SeniorPairs')">Senior Pairs</button>
+        <button onclick="setCategory('SeniorIceDance')">Senior Ice Dance</button>
     </div>
     <div class="container">
         <button onclick="setMode('all')">Show All Scores</button>
@@ -47,12 +56,29 @@ html_content = f"""
     </table>
 
     <script>
-        const skaters = {data_json};
-        let selectedCategory = 'Senior Men'; // store currently selected category
+        let skaters = {data_json_men};
+        let selectedCategory = 'SeniorMen'; // store currently selected category
         let selectedMode = 'all'; // 'all' or 'unique'
 
         function setCategory(category){{
             selectedCategory = category;
+
+            if(category=='SeniorMen'){{
+                skaters = {data_json_men};
+            }}
+
+            if(category=='SeniorWomen'){{
+                skaters = {data_json_women};
+            }}
+
+            if(category=='SeniorPairs'){{
+                skaters = {data_json_pairs};
+            }}
+
+            if(category=='SeniorIceDance'){{
+                skaters = {data_json_icedance};
+            }}
+
             updateTable();
         }}
 
@@ -103,7 +129,6 @@ html_content = f"""
             renderTable(dataToShow);
         }}
 
-  
         // Initial render
         updateTable();
     </script>
