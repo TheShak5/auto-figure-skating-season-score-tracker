@@ -324,3 +324,493 @@ skaters:
   country: USA
   name: Jared SEDLIS
   points: '139.71'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: KOR
+  name: Junhwan CHA
+  points: '253.31'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Kazuki TOMONO
+  points: '236.78'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: USA
+  name: Tomoki HIWATASHI
+  points: '236.71'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Sota YAMAMOTO
+  points: '233.91'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Tatsuya TSUBOI
+  points: '231.19'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: KOR
+  name: Jaekeun LEE
+  points: '226.53'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: CAN
+  name: Aleksa RAKIC
+  points: '221.18'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Kao MIURA
+  points: '219.17'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: KOR
+  name: Sihyeong LEE
+  points: '218.56'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: USA
+  name: Jimmy MA
+  points: '218.52'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Haru KAKIUCHI
+  points: '203.83'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: USA
+  name: Goku ENDO
+  points: '198.20'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Shunsuke NAKAMURA
+  points: '188.12'
+- category: SeniorMen
+  compID: Kinoshita Group Cup 2025
+  country: GBR
+  name: Tao MACRAE
+  points: '159.84'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: USA
+  name: Ilia MALININ
+  points: '306.65'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: JPN
+  name: Yuma KAGIYAMA
+  points: '285.91'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: ITA
+  name: Nikolaj MEMOLA
+  points: '265.37'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: JPN
+  name: Shun SATO
+  points: '254.14'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: FRA
+  name: Adam SIAO HIM FA
+  points: '244.36'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: JPN
+  name: Kao MIURA
+  points: '233.02'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: SWE
+  name: Andreas NORDEBACK
+  points: '230.37'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: FRA
+  name: Luc ECONOMIDES
+  points: '229.19'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: USA
+  name: Maxim NAUMOV
+  points: '223.43'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: UKR
+  name: Kyrylo MARSAK
+  points: '223.20'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: ITA
+  name: Matteo RIZZO
+  points: '213.32'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: FRA
+  name: Corentin SPINAR
+  points: '194.88'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: UKR
+  name: Ivan SHMURATKO
+  points: '183.48'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: FIN
+  name: Makar SUNTSEV
+  points: '171.16'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: AUT
+  name: Tobia OELLERER
+  points: '157.06'
+- category: SeniorMen
+  compID: Lombardia Trophy 2025
+  country: BUL
+  name: Filip KAYMAKCHIEV
+  points: '113.40'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: FRA
+  name: Kevin AYMOZ
+  points: '261.90'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: ITA
+  name: Matteo RIZZO
+  points: '249.46'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: ITA
+  name: Daniel GRASSL
+  points: '241.81'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: EST
+  name: Mihhail SELEVKO
+  points: '229.20'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: SVK
+  name: Adam HAGARA
+  points: '223.16'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: USA
+  name: Jacob SANCHEZ
+  points: '223.14'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: POL
+  name: Vladimir SAMOILOV
+  points: '221.87'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: ITA
+  name: Nikolaj MEMOLA
+  points: '220.05'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: KOR
+  name: Younghyun CHA
+  points: '212.82'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: CAN
+  name: Aleksa RAKIC
+  points: '210.91'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: CRO
+  name: Jari KESSLER
+  points: '210.81'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: ESP
+  name: Tomas-Llorenc GUARINO SABATE
+  points: '208.69'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: FRA
+  name: Samy HAMMI
+  points: '199.31'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: GER
+  name: Nikita STAROSTIN
+  points: '194.57'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: SVK
+  name: Lukas VACLAVIK
+  points: '180.79'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: AUT
+  name: Tobia OELLERER
+  points: '178.24'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: FRA
+  name: Xavier VAUCLIN
+  points: '177.15'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: POL
+  name: Jakub LOFEK
+  points: '176.89'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: UKR
+  name: Vadym NOVIKOV
+  points: '160.64'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: SWE
+  name: Casper JOHANSSON
+  points: '158.52'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: SWE
+  name: Hugo BOSTEDT
+  points: '157.70'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: ESP
+  name: Euken ALBERDI
+  points: '141.55'
+- category: SeniorMen
+  compID: Nepela Memorial 2025
+  country: SVK
+  name: Jozef CURMA
+  points: '122.73'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: CAN
+  name: Stephen GOGOLEV
+  points: '255.06'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: USA
+  name: Andrew TORGASHEV
+  points: '239.54'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: SUI
+  name: Lukas BRITSCHGI
+  points: '236.06'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: JPN
+  name: Kazuki TOMONO
+  points: '234.59'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: CAN
+  name: Roman SADOVSKY
+  points: '233.39'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: USA
+  name: Liam KAPEIKIS
+  points: '227.45'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: KOR
+  name: Jaekeun LEE
+  points: '219.99'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: JPN
+  name: Tatsuya TSUBOI
+  points: '209.01'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: ITA
+  name: Gabriele FRANGIPANI
+  points: '198.37'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: FRA
+  name: Landry le MAY
+  points: '193.63'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: POL
+  name: Kornel WITKOWSKI
+  points: '190.78'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Arthur Wolfgang MAI
+  points: '179.47'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Kai JAGODA
+  points: '179.22'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: CZE
+  name: Filip SCERBA
+  points: '176.93'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: KOR
+  name: Juheon LIM
+  points: '171.55'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Luca FUENFER
+  points: '159.09'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: GBR
+  name: Lucas FITTERER
+  points: '153.24'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: ESP
+  name: Iker OYARZABAL ALBAS
+  points: '148.36'
+- category: SeniorMen
+  compID: Nebelhorn Trophy 2025
+  country: GBR
+  name: Ken FITTERER
+  points: '137.10'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: AIN
+  name: Petr GUMENNIK
+  points: '262.82'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: KOR
+  name: Hyungyeom KIM
+  points: '228.60'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: MEX
+  name: Donovan CARRILLO
+  points: '222.36'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: UKR
+  name: Kyrylo MARSAK
+  points: '217.57'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: TPE
+  name: Yu-Hsiang LI
+  points: '216.98'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: MON
+  name: Davide LEWTON BRAIN
+  points: '216.12'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: FRA
+  name: Francois PITOT
+  points: '214.57'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: CZE
+  name: Georgii RESHTENKO
+  points: '213.06'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: GER
+  name: Genrikh GARTUNG
+  points: '211.17'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: ISR
+  name: Tamir KUPERMAN
+  points: '201.60'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: ARM
+  name: Semen DANILIANTS
+  points: '200.00'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: HUN
+  name: Aleksandr VLASENKO
+  points: '194.18'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: CRO
+  name: Jari KESSLER
+  points: '190.54'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: KAZ
+  name: Dias JIRENBAYEV
+  points: '189.14'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: AUT
+  name: Maurizio ZANDRON
+  points: '188.95'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: AIN
+  name: Yauhenii PUZANAU
+  points: '185.15'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: AUS
+  name: Douglas GERBER
+  points: '182.84'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: GBR
+  name: Edward APPLEBY
+  points: '174.12'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: HKG
+  name: Jarvis HO
+  points: '164.00'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: TUR
+  name: Burak DEMIRBOGA
+  points: '163.97'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: FIN
+  name: Valtter VIRTANEN
+  points: '163.19'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: PHI
+  name: Paolo BORROMEO
+  points: '158.46'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: MAS
+  name: Ze Zeng FANG
+  points: '155.87'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: IRL
+  name: Dillon JUDGE
+  points: '133.73'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: ECU
+  name: Gabriel MARTINEZ
+  points: '124.23'
+- category: SeniorMen
+  compID: Olympic Qualifier
+  country: POR
+  name: David GOUVEIA
+  points: '109.21'

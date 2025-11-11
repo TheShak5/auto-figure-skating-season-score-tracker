@@ -149,3 +149,268 @@ skaters:
   country: FRA
   name: Megan WESSENBERG / Denys STREKALIN
   points: '139.21'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: CAN
+  name: Deanna STELLATO-DUDEK / Maxime DESCHAMPS
+  points: '199.43'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Alisa EFIMOVA / Misha MITROFANOV
+  points: '193.54'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Katie McBEATH / Daniil PARKMAN
+  points: '187.89'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Emily CHAN / Spencer Akira HOWE
+  points: '183.22'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: ARM
+  name: Karina AKOPOVA / Nikita RAKHMANIN
+  points: '174.84'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Chelsea LIU / Ryan BEDARD
+  points: '168.27'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Audrey SHIN / Balazs NAGY
+  points: '165.76'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: AUT
+  name: Gabriella IZZO / Luc MAIERHOFER
+  points: '165.00'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: AUT
+  name: Sophia SCHALLER / Livio MAYR
+  points: '153.37'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Naomi WILLIAMS / Lachlan LEWER
+  points: '148.14'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Linzy FITZPATRICK / Keyton BEARINGER
+  points: '125.91'
+- category: SeniorPairs
+  compID: John Nicks Pairs Challenge Inter. 2025
+  country: USA
+  name: Olivia FLORES / Luke WANG
+  points: '122.66'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Riku MIURA / Ryuichi KIHARA
+  points: '222.94'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: GEO
+  name: Anastasiia METELKINA / Luka BERULAVA
+  points: '212.90'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: JPN
+  name: Yuna NAGAOKA / Sumitada MORIGUCHI
+  points: '192.77'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: USA
+  name: Valentina PLAZAS / Maximiliano FERNANDEZ
+  points: '167.25'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: NED
+  name: Daria DANILOVA / Michel TSIBA
+  points: '158.24'
+- category: SeniorPairs
+  compID: Kinoshita Group Cup 2025
+  country: PHI
+  name: Isabella GAMEZ / Aleksandr KOROVIN
+  points: '141.14'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: ITA
+  name: Sara CONTI / Niccolo MACII
+  points: '215.63'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: ITA
+  name: Rebecca GHILARDI / Filippo AMBROSINI
+  points: '188.31'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: CZE
+  name: Anna VALESI / Martin BIDAR
+  points: '170.57'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: ISL
+  name: Julia Sylvia GUNNARSDOTTIR / Manuel PIAZZA
+  points: '158.91'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: ITA
+  name: Irma CALDARA / Riccardo MAGLIO
+  points: '145.11'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: UKR
+  name: Sofiia HOLICHENKO / Artem DARENSKYI
+  points: '135.77'
+- category: SeniorPairs
+  compID: Lombardia Trophy 2025
+  country: RSA
+  name: Julia MAUDER / Johannes WILKINSON
+  points: '125.86'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Minerva Fabienne HASE / Nikita VOLODIN
+  points: '221.38'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: JPN
+  name: Riku MIURA / Ryuichi KIHARA
+  points: '221.03'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: USA
+  name: Alisa EFIMOVA / Misha MITROFANOV
+  points: '193.79'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: ITA
+  name: Rebecca GHILARDI / Filippo AMBROSINI
+  points: '193.03'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: USA
+  name: Katie McBEATH / Daniil PARKMAN
+  points: '183.81'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: CAN
+  name: Lia PEREIRA / Trennt MICHAUD
+  points: '183.57'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: ITA
+  name: Lucrezia BECCARI / Matteo GUARISE
+  points: '181.22'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Annika HOCKE / Robert KUNKEL
+  points: '180.04'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: SUI
+  name: Oxana VOUILLAMOZ / Tom BOUVART
+  points: '179.80'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: AUT
+  name: Gabriella IZZO / Luc MAIERHOFER
+  points: '171.24'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: GBR
+  name: Anastasia VAIPAN-LAW / Luke DIGBY
+  points: '165.02'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: NED
+  name: Daria DANILOVA / Michel TSIBA
+  points: '159.53'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: POL
+  name: Ioulia CHTCHETININA / Michal WOZNIAK
+  points: '158.38'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: GER
+  name: Letizia ROSCHER / Luis SCHUSTER
+  points: '142.50'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: FRA
+  name: Aurelie FAULA / Theo BELLE
+  points: '139.48'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: ITA
+  name: Irma CALDARA / Riccardo MAGLIO
+  points: '131.85'
+- category: SeniorPairs
+  compID: Nebelhorn Trophy 2025
+  country: FRA
+  name: Megan WESSENBERG / Denys STREKALIN
+  points: '127.89'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: CHN
+  name: Jiaxuan ZHANG / Yihang HUANG
+  points: '191.52'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: ARM
+  name: Karina AKOPOVA / Nikita RAKHMANIN
+  points: '186.84'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: JPN
+  name: Yuna NAGAOKA / Sumitada MORIGUCHI
+  points: '178.66'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: FRA
+  name: Camille KOVALEV / Pavel KOVALEV
+  points: '171.58'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: UKR
+  name: Sofiia HOLICHENKO / Artem DARENSKYI
+  points: '169.41'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: USA
+  name: Audrey SHIN / Balazs NAGY
+  points: '158.66'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: CZE
+  name: Anna VALESI / Martin BIDAR
+  points: '156.11'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: ISL
+  name: Julia Sylvia GUNNARSDOTTIR / Manuel PIAZZA
+  points: '152.03'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: AUT
+  name: Sophia SCHALLER / Livio MAYR
+  points: '139.86'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: PRK
+  name: Tae Ok RYOM / Kum Chol HAN
+  points: '138.30'
+- category: SeniorPairs
+  compID: Olympic Qualifier
+  country: PHI
+  name: Isabella GAMEZ / Aleksandr KOROVIN
+  points: '133.69'
