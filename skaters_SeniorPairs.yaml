@@ -1,0 +1,161 @@
+skaters:
+- category: SeniorPairs
+  compID: NHK25
+  country: ITA
+  name: Sara CONTI / Niccolo MACII
+  points: '208.58'
+- category: SeniorPairs
+  compID: NHK25
+  country: HUN
+  name: Maria PAVLOVA / Alexei SVIATCHENKO
+  points: '207.28'
+- category: SeniorPairs
+  compID: NHK25
+  country: CHN
+  name: Wenjing SUI / Cong HAN
+  points: '203.79'
+- category: SeniorPairs
+  compID: NHK25
+  country: JPN
+  name: Yuna NAGAOKA / Sumitada MORIGUCHI
+  points: '202.11'
+- category: SeniorPairs
+  compID: NHK25
+  country: USA
+  name: Alisa EFIMOVA / Misha MITROFANOV
+  points: '193.00'
+- category: SeniorPairs
+  compID: NHK25
+  country: USA
+  name: Emily CHAN / Spencer Akira HOWE
+  points: '187.40'
+- category: SeniorPairs
+  compID: NHK25
+  country: NED
+  name: Daria DANILOVA / Michel TSIBA
+  points: '155.20'
+- category: SeniorPairs
+  compID: NHK25
+  country: FRA
+  name: Camille KOVALEV / Pavel KOVALEV
+  points: ''
+- category: SeniorPairs
+  compID: SCI25
+  country: CAN
+  name: Deanna STELLATO-DUDEK / Maxime DESCHAMPS
+  points: '213.40'
+- category: SeniorPairs
+  compID: SCI25
+  country: GER
+  name: Minerva Fabienne HASE / Nikita VOLODIN
+  points: '207.18'
+- category: SeniorPairs
+  compID: SCI25
+  country: USA
+  name: Ellie KAM / Danny O'SHEA
+  points: '199.11'
+- category: SeniorPairs
+  compID: SCI25
+  country: CAN
+  name: Lia PEREIRA / Trennt MICHAUD
+  points: '186.54'
+- category: SeniorPairs
+  compID: SCI25
+  country: CAN
+  name: Kelly Ann LAURIN / Loucas ETHIER
+  points: '168.24'
+- category: SeniorPairs
+  compID: SCI25
+  country: GBR
+  name: Anastasia VAIPAN-LAW / Luke DIGBY
+  points: '167.94'
+- category: SeniorPairs
+  compID: SCI25
+  country: SUI
+  name: Oxana VOUILLAMOZ / Tom BOUVART
+  points: '165.94'
+- category: SeniorPairs
+  compID: SCI25
+  country: POL
+  name: Ioulia CHTCHETININA / Michal WOZNIAK
+  points: '163.22'
+- category: SeniorPairs
+  compID: CoC25
+  country: GEO
+  name: Anastasiia METELKINA / Luka BERULAVA
+  points: '217.24'
+- category: SeniorPairs
+  compID: CoC25
+  country: ITA
+  name: Sara CONTI / Niccolo MACII
+  points: '209.88'
+- category: SeniorPairs
+  compID: CoC25
+  country: CHN
+  name: Wenjing SUI / Cong HAN
+  points: '202.92'
+- category: SeniorPairs
+  compID: CoC25
+  country: CHN
+  name: Jiaxuan ZHANG / Yihang HUANG
+  points: '195.41'
+- category: SeniorPairs
+  compID: CoC25
+  country: ITA
+  name: Rebecca GHILARDI / Filippo AMBROSINI
+  points: '186.85'
+- category: SeniorPairs
+  compID: CoC25
+  country: GER
+  name: Annika HOCKE / Robert KUNKEL
+  points: '183.74'
+- category: SeniorPairs
+  compID: CoC25
+  country: USA
+  name: Katie McBEATH / Daniil PARKMAN
+  points: '181.70'
+- category: SeniorPairs
+  compID: CoC25
+  country: ITA
+  name: Lucrezia BECCARI / Matteo GUARISE
+  points: '55.67'
+- category: SeniorPairs
+  compID: GPFra25
+  country: JPN
+  name: Riku MIURA / Ryuichi KIHARA
+  points: '219.15'
+- category: SeniorPairs
+  compID: GPFra25
+  country: CAN
+  name: Deanna STELLATO-DUDEK / Maxime DESCHAMPS
+  points: '197.66'
+- category: SeniorPairs
+  compID: GPFra25
+  country: HUN
+  name: Maria PAVLOVA / Alexei SVIATCHENKO
+  points: '192.76'
+- category: SeniorPairs
+  compID: GPFra25
+  country: USA
+  name: Katie McBEATH / Daniil PARKMAN
+  points: '178.08'
+- category: SeniorPairs
+  compID: GPFra25
+  country: USA
+  name: Audrey SHIN / Balazs NAGY
+  points: '173.30'
+- category: SeniorPairs
+  compID: GPFra25
+  country: FRA
+  name: Camille KOVALEV / Pavel KOVALEV
+  points: '160.62'
+- category: SeniorPairs
+  compID: GPFra25
+  country: FRA
+  name: Aurelie FAULA / Theo BELLE
+  points: '148.10'
+- category: SeniorPairs
+  compID: GPFra25
+  country: FRA
+  name: Megan WESSENBERG / Denys STREKALIN
+  points: '139.21'

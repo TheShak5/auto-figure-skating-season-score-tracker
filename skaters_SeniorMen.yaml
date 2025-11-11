@@ -1,0 +1,326 @@
+skaters:
+- category: SeniorMen
+  compID: NHK25
+  country: JPN
+  name: Yuma KAGIYAMA
+  points: '287.24'
+- category: SeniorMen
+  compID: NHK25
+  country: JPN
+  name: Shun SATO
+  points: '285.71'
+- category: SeniorMen
+  compID: NHK25
+  country: SUI
+  name: Lukas BRITSCHGI
+  points: '246.94'
+- category: SeniorMen
+  compID: NHK25
+  country: CHN
+  name: Boyang JIN
+  points: '239.05'
+- category: SeniorMen
+  compID: NHK25
+  country: KOR
+  name: Junhwan CHA
+  points: '230.26'
+- category: SeniorMen
+  compID: NHK25
+  country: SVK
+  name: Adam HAGARA
+  points: '230.00'
+- category: SeniorMen
+  compID: NHK25
+  country: ITA
+  name: Matteo RIZZO
+  points: '229.60'
+- category: SeniorMen
+  compID: NHK25
+  country: FRA
+  name: Francois PITOT
+  points: '229.47'
+- category: SeniorMen
+  compID: NHK25
+  country: USA
+  name: Andrew TORGASHEV
+  points: '212.01'
+- category: SeniorMen
+  compID: NHK25
+  country: USA
+  name: Jimmy MA
+  points: '208.56'
+- category: SeniorMen
+  compID: NHK25
+  country: ITA
+  name: Gabriele FRANGIPANI
+  points: '204.64'
+- category: SeniorMen
+  compID: NHK25
+  country: JPN
+  name: Haru KAKIUCHI
+  points: '186.40'
+- category: SeniorMen
+  compID: SCI25
+  country: USA
+  name: Ilia MALININ
+  points: '333.81'
+- category: SeniorMen
+  compID: SCI25
+  country: EST
+  name: Aleksandr SELEVKO
+  points: '257.21'
+- category: SeniorMen
+  compID: SCI25
+  country: JPN
+  name: Kao MIURA
+  points: '253.69'
+- category: SeniorMen
+  compID: SCI25
+  country: JPN
+  name: Kazuki TOMONO
+  points: '251.46'
+- category: SeniorMen
+  compID: SCI25
+  country: GEO
+  name: Nika EGADZE
+  points: '247.95'
+- category: SeniorMen
+  compID: SCI25
+  country: ITA
+  name: Nikolaj MEMOLA
+  points: '238.20'
+- category: SeniorMen
+  compID: SCI25
+  country: CAN
+  name: Roman SADOVSKY
+  points: '236.73'
+- category: SeniorMen
+  compID: SCI25
+  country: CAN
+  name: Stephen GOGOLEV
+  points: '236.48'
+- category: SeniorMen
+  compID: SCI25
+  country: USA
+  name: Tomoki HIWATASHI
+  points: '230.58'
+- category: SeniorMen
+  compID: SCI25
+  country: FRA
+  name: Kevin AYMOZ
+  points: '230.10'
+- category: SeniorMen
+  compID: SCI25
+  country: POL
+  name: Vladimir SAMOILOV
+  points: '225.33'
+- category: SeniorMen
+  compID: SCI25
+  country: CAN
+  name: Aleksa RAKIC
+  points: '216.90'
+- category: SeniorMen
+  compID: CoC25
+  country: JPN
+  name: Shun SATO
+  points: '278.12'
+- category: SeniorMen
+  compID: CoC25
+  country: ITA
+  name: Daniel GRASSL
+  points: '269.43'
+- category: SeniorMen
+  compID: CoC25
+  country: KAZ
+  name: Mikhail SHAIDOROV
+  points: '262.67'
+- category: SeniorMen
+  compID: CoC25
+  country: USA
+  name: Tomoki HIWATASHI
+  points: '245.71'
+- category: SeniorMen
+  compID: CoC25
+  country: CHN
+  name: Boyang JIN
+  points: '232.81'
+- category: SeniorMen
+  compID: CoC25
+  country: AZE
+  name: Vladimir LITVINTSEV
+  points: '222.64'
+- category: SeniorMen
+  compID: CoC25
+  country: USA
+  name: Jacob SANCHEZ
+  points: '221.21'
+- category: SeniorMen
+  compID: CoC25
+  country: KOR
+  name: Junhwan CHA
+  points: '217.53'
+- category: SeniorMen
+  compID: CoC25
+  country: JPN
+  name: Sota YAMAMOTO
+  points: '211.67'
+- category: SeniorMen
+  compID: CoC25
+  country: LAT
+  name: Deniss VASILJEVS
+  points: '204.51'
+- category: SeniorMen
+  compID: CoC25
+  country: CHN
+  name: Daiwei DAI
+  points: '197.54'
+- category: SeniorMen
+  compID: CoC25
+  country: CHN
+  name: Zhiming PENG
+  points: '184.52'
+- category: SeniorMen
+  compID: GPFra25
+  country: USA
+  name: Ilia MALININ
+  points: '321.00'
+- category: SeniorMen
+  compID: GPFra25
+  country: FRA
+  name: Adam SIAO HIM FA
+  points: '280.95'
+- category: SeniorMen
+  compID: GPFra25
+  country: GEO
+  name: Nika EGADZE
+  points: '259.41'
+- category: SeniorMen
+  compID: GPFra25
+  country: SUI
+  name: Lukas BRITSCHGI
+  points: '249.04'
+- category: SeniorMen
+  compID: GPFra25
+  country: FRA
+  name: Francois PITOT
+  points: '233.98'
+- category: SeniorMen
+  compID: GPFra25
+  country: USA
+  name: Andrew TORGASHEV
+  points: '233.36'
+- category: SeniorMen
+  compID: GPFra25
+  country: JPN
+  name: Tatsuya TSUBOI
+  points: '232.78'
+- category: SeniorMen
+  compID: GPFra25
+  country: EST
+  name: Mihhail SELEVKO
+  points: '232.17'
+- category: SeniorMen
+  compID: GPFra25
+  country: USA
+  name: Maxim NAUMOV
+  points: '226.74'
+- category: SeniorMen
+  compID: GPFra25
+  country: JPN
+  name: Kao MIURA
+  points: '209.57'
+- category: SeniorMen
+  compID: GPFra25
+  country: FRA
+  name: Luc ECONOMIDES
+  points: '208.86'
+- category: SeniorMen
+  compID: GPFra25
+  country: ITA
+  name: Gabriele FRANGIPANI
+  points: '197.99'
+- category: SeniorMen
+  compID: CranberryCup
+  country: CAN
+  name: Roman SADOVSKY
+  points: '243.23'
+- category: SeniorMen
+  compID: CranberryCup
+  country: EST
+  name: Aleksandr SELEVKO
+  points: '235.70'
+- category: SeniorMen
+  compID: CranberryCup
+  country: CAN
+  name: Stephen GOGOLEV
+  points: '231.81'
+- category: SeniorMen
+  compID: CranberryCup
+  country: ISR
+  name: Tamir KUPERMAN
+  points: '211.87'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Jacob SANCHEZ
+  points: '211.31'
+- category: SeniorMen
+  compID: CranberryCup
+  country: MEX
+  name: Donovan CARRILLO
+  points: '208.51'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Jimmy MA
+  points: '207.53'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Liam KAPEIKIS
+  points: '201.94'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Tomoki HIWATASHI
+  points: '201.66'
+- category: SeniorMen
+  compID: CranberryCup
+  country: KOR
+  name: Jaekeun LEE
+  points: '198.50'
+- category: SeniorMen
+  compID: CranberryCup
+  country: ISR
+  name: Mark GORODNITSKY
+  points: '193.08'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Kai KOVAR
+  points: '189.91'
+- category: SeniorMen
+  compID: CranberryCup
+  country: ARM
+  name: Semen DANILIANTS
+  points: '187.48'
+- category: SeniorMen
+  compID: CranberryCup
+  country: ISR
+  name: Lev VINOKUR
+  points: '170.34'
+- category: SeniorMen
+  compID: CranberryCup
+  country: KOR
+  name: Juheon LIM
+  points: '161.89'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Daniel MARTYNOV
+  points: '153.00'
+- category: SeniorMen
+  compID: CranberryCup
+  country: USA
+  name: Jared SEDLIS
+  points: '139.71'
