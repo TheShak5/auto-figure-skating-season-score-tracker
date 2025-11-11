@@ -100,6 +100,15 @@ html_content = f"""
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = '';
             data.forEach((skater, index) => {{
+                // Determine the row class for top 3 ranks
+                let rowClass = '';
+                if (index === 0){{
+                    rowClass = 'gold-row';
+                }} else if (index === 1) {{
+                    rowClass = 'silver-row';
+                }} else if (index === 2) {{
+                    rowClass = 'bronze-row';
+                }}
                 const row = `<tr>
                     <td>${{index + 1}}</td>
                     <td>${{skater.name}}</td>
@@ -111,23 +120,51 @@ html_content = f"""
             }});
         }}
 
+        # function updateTable(){{
+        #     let filtered = getFilteredSkaters();
+        #     let dataToShow = [];
+
+        #     if (selectedMode === 'unique'){{
+        #     const uniqueMap = new Map();
+        #     filtered.forEach(s =>{{
+        #         if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
+        #         uniqueMap.set(s.name, s);
+        #         }}
+        #     }});
+        #     dataToShow = Array.from(uniqueMap.values());
+        #     }} else {{
+        #         dataToShow = [...filtered];
+        #     }}
+
+        #     dataToShow.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+        #     renderTable(dataToShow);
+        # }}
+
         function updateTable(){{
             let filtered = getFilteredSkaters();
             let dataToShow = [];
 
             if (selectedMode === 'unique'){{
-            const uniqueMap = new Map();
-            filtered.forEach(s =>{{
-                if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
-                uniqueMap.set(s.name, s);
-                }}
-            }});
-            dataToShow = Array.from(uniqueMap.values());
+                const uniqueMap = new Map();
+                filtered.forEach(s =>{{
+                    if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
+                        uniqueMap.set(s.name, s);
+                    }}
+                }});
+                dataToShow = Array.from(uniqueMap.values());
             }} else {{
                 dataToShow = [...filtered];
             }}
 
+            // Sort descending by points
             dataToShow.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
+
+            // Add rank to each item starting from 1
+            dataToShow.forEach((item, index) => {{
+                item.rank = index + 1;
+            }});
+
+            // Now modify your renderTable to use this rank for row coloring
             renderTable(dataToShow);
         }}
 
