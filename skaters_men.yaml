@@ -191,3 +191,71 @@ skaters:
   country: ITA
   name: Gabriele FRANGIPANI
   points: '197.99'
+- compID: CranberryCup
+  country: CAN
+  name: Roman SADOVSKY
+  points: '243.23'
+- compID: CranberryCup
+  country: EST
+  name: Aleksandr SELEVKO
+  points: '235.70'
+- compID: CranberryCup
+  country: CAN
+  name: Stephen GOGOLEV
+  points: '231.81'
+- compID: CranberryCup
+  country: ISR
+  name: Tamir KUPERMAN
+  points: '211.87'
+- compID: CranberryCup
+  country: USA
+  name: Jacob SANCHEZ
+  points: '211.31'
+- compID: CranberryCup
+  country: MEX
+  name: Donovan CARRILLO
+  points: '208.51'
+- compID: CranberryCup
+  country: USA
+  name: Jimmy MA
+  points: '207.53'
+- compID: CranberryCup
+  country: USA
+  name: Liam KAPEIKIS
+  points: '201.94'
+- compID: CranberryCup
+  country: USA
+  name: Tomoki HIWATASHI
+  points: '201.66'
+- compID: CranberryCup
+  country: KOR
+  name: Jaekeun LEE
+  points: '198.50'
+- compID: CranberryCup
+  country: ISR
+  name: Mark GORODNITSKY
+  points: '193.08'
+- compID: CranberryCup
+  country: USA
+  name: Kai KOVAR
+  points: '189.91'
+- compID: CranberryCup
+  country: ARM
+  name: Semen DANILIANTS
+  points: '187.48'
+- compID: CranberryCup
+  country: ISR
+  name: Lev VINOKUR
+  points: '170.34'
+- compID: CranberryCup
+  country: KOR
+  name: Juheon LIM
+  points: '161.89'
+- compID: CranberryCup
+  country: USA
+  name: Daniel MARTYNOV
+  points: '153.00'
+- compID: CranberryCup
+  country: USA
+  name: Jared SEDLIS
+  points: '139.71'
