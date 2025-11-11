@@ -50,7 +50,7 @@ for url, comp_id in zip(url_list,competition_ID):
             # print(points)
 
             catgeory = "Senior Men"
-            
+
             skater_data.append({
                 "name": name,
                 "country": country_code,
@@ -59,5 +59,5 @@ for url, comp_id in zip(url_list,competition_ID):
                 "category": catgeory
             })
             
-with open("skaters_men.yaml", "w") as f:
+with open("skaters.yaml", "w") as f:
     yaml.dump({"skaters": skater_data}, f)
