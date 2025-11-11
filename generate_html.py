@@ -23,10 +23,10 @@ html_content = f"""
 </head>
 <body>
     <div class="container">
-        <button onclick="showAllScoresGivenCategory(category=men)">Senior Men</button>
-        <button onclick="showAllScoresGivenCategory(category=women)">Senior Women</button>
-        <button onclick="showAllScoresGivenCategory(category=pairs)">Senior Pairs</button>
-        <button onclick="showAllScoresGivenCategory(category=icedance)">Senior Ice Dance</button>
+        <button onclick="showAllScoresGivenCategory(category='Senior Men')">Senior Men</button>
+        <button onclick="showAllScoresGivenCategory(category='Senior Women')">Senior Women</button>
+        <button onclick="showAllScoresGivenCategory(category='Senior Pairs')">Senior Pairs</button>
+        <button onclick="showAllScoresGivenCategory(category='Senior Ice Dance')">Senior Ice Dance</button>
     </div>
     <div class="container">
         <button onclick="showAllScores()">Show All Scores</button>
@@ -64,7 +64,7 @@ html_content = f"""
             }});
         }}
 
-        function showAllScoresGivenCategory() {{
+        function showAllScoresGivenCategory(category) {{
             // Filter by category
             const filtered = skaters.filter(skater => skater.category === category);
 
