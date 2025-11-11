@@ -4,15 +4,17 @@ import yaml
 
 # URL of the page
 url_list = ['https://www.isuresults.com/results/season2526/gpjpn2025/CAT001RS.htm',
+            'https://www.isuresults.com/results/season2526/gpjpn2025/CAT002RS.htm',
             'https://www.isuresults.com/results/season2526/gpcan2025/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpchn2025/CAT001RS.htm',
             'https://results.isu.org/results/season2526/gpfra2025/CAT001RS.htm',
            'https://ijs.usfigureskating.org/leaderboard/results/2025/36369/CAT001RS.htm']
 
-competition_ID = ['NHK25', 'SCI25', 'CoC25', 'GPFra25', 'CranberryCup'] 
+competition_ID = ['NHK25', 'NHK25', 'SCI25', 'CoC25', 'GPFra25', 'CranberryCup'] 
+category_list = ['Senior Men', 'Senior Women', 'Senior Men', 'Senior Men', 'Senior Men', 'Senior Men',]
 skater_data = []
 
-for url, comp_id in zip(url_list,competition_ID):
+for url, comp_id, category in zip(url_list,competition_ID, category_list):
     # Fetch the page content
     response = requests.get(url)
     response.raise_for_status()  # Check that request was successful
@@ -49,14 +51,12 @@ for url, comp_id in zip(url_list,competition_ID):
             points = tds[3].get_text(strip=True)
             # print(points)
 
-            catgeory = "Senior Men"
-
             skater_data.append({
                 "name": name,
                 "country": country_code,
                 "points": points,
                 "compID": comp_id,
-                "category": catgeory
+                "category": category
             })
             
 with open("skaters.yaml", "w") as f:
