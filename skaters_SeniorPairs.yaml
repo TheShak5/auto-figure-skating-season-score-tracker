@@ -35,11 +35,6 @@ skaters:
   name: Daria DANILOVA / Michel TSIBA
   points: '155.20'
 - category: SeniorPairs
-  compID: NHK25
-  country: FRA
-  name: Camille KOVALEV / Pavel KOVALEV
-  points: ''
-- category: SeniorPairs
   compID: SCI25
   country: CAN
   name: Deanna STELLATO-DUDEK / Maxime DESCHAMPS
@@ -114,11 +109,6 @@ skaters:
   country: USA
   name: Katie McBEATH / Daniil PARKMAN
   points: '181.70'
-- category: SeniorPairs
-  compID: CoC25
-  country: ITA
-  name: Lucrezia BECCARI / Matteo GUARISE
-  points: '55.67'
 - category: SeniorPairs
   compID: GPFra25
   country: JPN

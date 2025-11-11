@@ -76,8 +76,12 @@ for i in range(len(category_IDs)):
                     # print(country_code)
 
                 # Extract points (fourth <td>)
+                if (tds[0].get_text(strip=True) == 'WD'): # dealing with any withdraws from competition
+                    continue
+
                 points = tds[3].get_text(strip=True)
-                # print(points)
+
+                print(points)
 
                 skater_data.append({
                     "name": name,
