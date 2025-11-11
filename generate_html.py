@@ -23,10 +23,10 @@ html_content = f"""
 </head>
 <body>
     <div class="container">
-        <button onclick="showAllScoresGivenCategory(category='Senior Men')">Senior Men</button>
-        <button onclick="showAllScoresGivenCategory(category='Senior Women')">Senior Women</button>
-        <button onclick="showAllScoresGivenCategory(category='Senior Pairs')">Senior Pairs</button>
-        <button onclick="showAllScoresGivenCategory(category='Senior Ice Dance')">Senior Ice Dance</button>
+        <button onclick="setCategory('Senior Men')">Senior Men</button>
+        <button onclick="setCategory('Senior Women')">Senior Women</button>
+        <button onclick="setCategory('Senior Pairs')">Senior Pairs</button>
+        <button onclick="setCategory('Senior Ice Dance')">Senior Ice Dance</button>
     </div>
     <div class="container">
         <button onclick="showAllScores()">Show All Scores</button>
@@ -49,6 +49,10 @@ html_content = f"""
     <script>
         const skaters = {data_json};
         let selectedCategory = 'Senior Men'; // store currently selected category
+
+        function setCategory(category){{
+            selectedCategory = category;
+        }}
 
         function getFilteredSkaters(){{
         // If a category is selected, filter by it
