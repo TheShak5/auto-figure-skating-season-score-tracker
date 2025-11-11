@@ -48,6 +48,15 @@ html_content = f"""
 
     <script>
         const skaters = {data_json};
+        let selectedCategory = 'Senior Men'; // store currently selected category
+
+        function getFilteredSkaters(){{
+        // If a category is selected, filter by it
+        if (selectedCategory){{
+            return skaters.filter(s => s.category === selectedCategory);
+        }}
+        return skaters;
+        }}
 
         function renderTable(data) {{
             const tbody = document.getElementById('tableBody');
@@ -64,30 +73,25 @@ html_content = f"""
             }});
         }}
 
-        function showAllScoresGivenCategory(category) {{
-            // Filter by category
-            const filtered = skaters.filter(skater => skater.category === category);
-
+        function showAllScores(){{
+            const filtered = getFilteredSkaters();
             const sorted = [...filtered].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
             renderTable(sorted);
-        }}
+        }}       
 
-        function showAllScores() {{
-            const sorted = [...skaters].sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
-            renderTable(sorted);
-        }}
 
-        function showUniqueHighest() {{
+        function showUniqueHighest(){{
+            const filtered = getFilteredSkaters();
             const uniqueMap = new Map();
-            skaters.forEach(s => {{
-                if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)) {{
-                    uniqueMap.set(s.name, s);
-                }}
+            filtered.forEach(s =>{{
+            if (!uniqueMap.has(s.name) || parseFloat(s.points) > parseFloat(uniqueMap.get(s.name).points)){{
+                uniqueMap.set(s.name, s);
+            }}
             }});
             const uniqueArray = Array.from(uniqueMap.values());
             uniqueArray.sort((a, b) => parseFloat(b.points) - parseFloat(a.points));
             renderTable(uniqueArray);
-        }}
+        }} 
 
         // Initial render with all scores
         showAllScores();
