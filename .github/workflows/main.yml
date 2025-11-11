@@ -13,7 +13,8 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install PyYAML
+          pip install yaml
+          pip install json
       - name: Retrieve Skater Information
         run: python retrieve_and_convert_information.py
       - name: Update HTML
