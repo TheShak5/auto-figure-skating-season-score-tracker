@@ -53,6 +53,7 @@ tbody tr.visible {
 
 tbody td {
   padding: 12px 15px;
+  background-color: #000000;
   border-bottom: 1px solid #eee;
 }
 
@@ -82,9 +83,9 @@ button:active {
 tbody tr {
   animation-name: cascadeDown;
   animation-fill-mode: forwards;
-  animation-duration: 1s; /* increased duration for slower animation */
+  animation-duration: 0.5s; /* increased duration for slower animation */
   animation-timing-function: ease-in-out; /* smoother easing */
-  animation-delay: calc(var(--delay) * 0.3s); /* increase delay step for more spacing */
+  animation-delay: calc(var(--delay) * 0.1s); /* increase delay step for more spacing */
 }
 
 @keyframes cascadeDown {
