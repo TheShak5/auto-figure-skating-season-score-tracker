@@ -37,7 +37,7 @@ thead th {
 }
 
 tbody tr {
-  background: #ffffff;
+  background: #000000;
   box-shadow: 0 5px 15px rgb(30 136 229 / 0.1);
   cursor: default;
   opacity: 0; /* Start hidden for animation */
@@ -82,9 +82,9 @@ button:active {
 tbody tr {
   animation-name: cascadeDown;
   animation-fill-mode: forwards;
-  animation-duration: 0.6s; /* increased duration for slower animation */
+  animation-duration: 3s; /* increased duration for slower animation */
   animation-timing-function: ease-in-out; /* smoother easing */
-  animation-delay: calc(var(--delay) * 0.25s); /* increase delay step for more spacing */
+  animation-delay: calc(var(--delay) * 0.5s); /* increase delay step for more spacing */
 }
 
 @keyframes cascadeDown {
