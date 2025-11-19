@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import yaml
 
 # URL of the page
-url_list_men = ['https://results.skateaustria.at/competition/saison2526/040/CAT001RS.htm',
+url_list_men = ['https://results.isu.org/results/season2526/gpusa2025/CAT001RS.htm',
+            'https://results.skateaustria.at/competition/saison2526/040/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpjpn2025/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpcan2025/CAT001RS.htm',
             'https://www.isuresults.com/results/season2526/gpchn2025/CAT001RS.htm',
@@ -17,7 +18,8 @@ url_list_men = ['https://results.skateaustria.at/competition/saison2526/040/CAT0
            'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT001RS.htm',
            'https://results.isu.org/results/season2526/qogfsk2025/CAT001RS.htm']
 
-url_list_women = ['https://results.skateaustria.at/competition/saison2526/040/CAT002RS.htm',
+url_list_women = ['https://results.isu.org/results/season2526/gpusa2025/CAT002RS.htm',
+            'https://results.skateaustria.at/competition/saison2526/040/CAT002RS.htm',
             'https://www.isuresults.com/results/season2526/gpjpn2025/CAT002RS.htm',
             'https://www.isuresults.com/results/season2526/gpcan2025/CAT002RS.htm',
             'https://www.isuresults.com/results/season2526/gpchn2025/CAT002RS.htm',
@@ -31,7 +33,8 @@ url_list_women = ['https://results.skateaustria.at/competition/saison2526/040/CA
            'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT002RS.htm',
            'https://results.isu.org/results/season2526/qogfsk2025/CAT002RS.htm']
 
-url_list_pairs = ['https://results.skateaustria.at/competition/saison2526/040/CAT003RS.htm',
+url_list_pairs = ['https://results.isu.org/results/season2526/gpusa2025/CAT003RS.htm',
+            'https://results.skateaustria.at/competition/saison2526/040/CAT003RS.htm',
             'https://www.isuresults.com/results/season2526/gpjpn2025/CAT003RS.htm',
             'https://www.isuresults.com/results/season2526/gpcan2025/CAT003RS.htm',
             'https://www.isuresults.com/results/season2526/gpchn2025/CAT003RS.htm',
@@ -43,7 +46,8 @@ url_list_pairs = ['https://results.skateaustria.at/competition/saison2526/040/CA
             'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT003RS.htm',
             'https://results.isu.org/results/season2526/qogfsk2025/CAT003RS.htm']
 
-url_list_icedance = ['https://results.skateaustria.at/competition/saison2526/040/CAT004RS.htm',
+url_list_icedance = ['https://results.isu.org/results/season2526/gpusa2025/CAT004RS.htm',
+                     'https://results.skateaustria.at/competition/saison2526/040/CAT004RS.htm',
                     'https://www.isuresults.com/results/season2526/gpjpn2025/CAT004RS.htm',
                     'https://www.isuresults.com/results/season2526/gpcan2025/CAT004RS.htm',
                     'https://www.isuresults.com/results/season2526/gpchn2025/CAT004RS.htm',
@@ -56,10 +60,10 @@ url_list_icedance = ['https://results.skateaustria.at/competition/saison2526/040
                     'https://results.vistream.com.pl/FS/2526/CSGEO2025/CAT004RS.htm',
                     'https://results.isu.org/results/season2526/qogfsk2025/CAT004RS.htm']
 
-competition_ID_men = ['Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
-competition_ID_women = ['Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
-competition_ID_pairs = ['Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'John Nicks Pairs Challenge Inter. 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nebelhorn Trophy 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
-competition_ID_icedance = ['Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_men = ['GP USA', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_women = ['GP USA', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'CranberryCup', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_pairs = ['GP USA', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'John Nicks Pairs Challenge Inter. 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nebelhorn Trophy 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_icedance = ['GP USA', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 
 url_list_combined = [url_list_men, url_list_women, url_list_pairs, url_list_icedance]
 competition_ID_list_combined = [competition_ID_men, competition_ID_women, competition_ID_pairs, competition_ID_icedance]
