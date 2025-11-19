@@ -1,5 +1,45 @@
 skaters:
 - category: SeniorPairs
+  compID: GP USA
+  country: JPN
+  name: Riku MIURA / Ryuichi KIHARA
+  points: '215.99'
+- category: SeniorPairs
+  compID: GP USA
+  country: GEO
+  name: Anastasiia METELKINA / Luka BERULAVA
+  points: '195.73'
+- category: SeniorPairs
+  compID: GP USA
+  country: CAN
+  name: Kelly Ann LAURIN / Loucas ETHIER
+  points: '182.87'
+- category: SeniorPairs
+  compID: GP USA
+  country: USA
+  name: Emily CHAN / Spencer Akira HOWE
+  points: '180.02'
+- category: SeniorPairs
+  compID: GP USA
+  country: GER
+  name: Annika HOCKE / Robert KUNKEL
+  points: '176.56'
+- category: SeniorPairs
+  compID: GP USA
+  country: ARM
+  name: Karina AKOPOVA / Nikita RAKHMANIN
+  points: '170.98'
+- category: SeniorPairs
+  compID: GP USA
+  country: USA
+  name: Valentina PLAZAS / Maximiliano FERNANDEZ
+  points: '163.26'
+- category: SeniorPairs
+  compID: GP USA
+  country: USA
+  name: Olivia FLORES / Luke WANG
+  points: '161.44'
+- category: SeniorPairs
   compID: Graz Ice Challenge
   country: USA
   name: Chelsea LIU / Ryan BEDARD

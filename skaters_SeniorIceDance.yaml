@@ -1,5 +1,55 @@
 skaters:
 - category: SeniorIceDance
+  compID: GP USA
+  country: USA
+  name: Madison CHOCK / Evan BATES
+  points: '212.58'
+- category: SeniorIceDance
+  compID: GP USA
+  country: CAN
+  name: Marjorie LAJOIE / Zachary LAGHA
+  points: '197.16'
+- category: SeniorIceDance
+  compID: GP USA
+  country: FRA
+  name: Evgeniia LOPAREVA / Geoffrey BRISSAUD
+  points: '192.61'
+- category: SeniorIceDance
+  compID: GP USA
+  country: FRA
+  name: Loicia DEMOUGEOT / Theo le MERCIER
+  points: '186.69'
+- category: SeniorIceDance
+  compID: GP USA
+  country: USA
+  name: Christina CARREIRA / Anthony PONOMARENKO
+  points: '186.03'
+- category: SeniorIceDance
+  compID: GP USA
+  country: USA
+  name: Oona BROWN / Gage BROWN
+  points: '182.11'
+- category: SeniorIceDance
+  compID: GP USA
+  country: CZE
+  name: Katerina MRAZKOVA / Daniel MRAZEK
+  points: '176.04'
+- category: SeniorIceDance
+  compID: GP USA
+  country: GBR
+  name: Phebe BEKKER / James HERNANDEZ
+  points: '173.16'
+- category: SeniorIceDance
+  compID: GP USA
+  country: CAN
+  name: Alicia FABBRI / Paul AYER
+  points: '165.68'
+- category: SeniorIceDance
+  compID: GP USA
+  country: FRA
+  name: Celina FRADJI / Jean-Hans FOURNEAUX
+  points: '144.54'
+- category: SeniorIceDance
   compID: Graz Ice Challenge
   country: USA
   name: Eva PATE / Logan BYE

@@ -1,5 +1,65 @@
 skaters:
 - category: SeniorWomen
+  compID: GP USA
+  country: USA
+  name: Alysa LIU
+  points: '214.27'
+- category: SeniorWomen
+  compID: GP USA
+  country: JPN
+  name: Rinka WATANABE
+  points: '210.96'
+- category: SeniorWomen
+  compID: GP USA
+  country: GEO
+  name: Anastasiia GUBANOVA
+  points: '204.69'
+- category: SeniorWomen
+  compID: GP USA
+  country: ITA
+  name: Lara Naki GUTMANN
+  points: '204.29'
+- category: SeniorWomen
+  compID: GP USA
+  country: USA
+  name: Starr ANDREWS
+  points: '195.28'
+- category: SeniorWomen
+  compID: GP USA
+  country: KOR
+  name: Chaeyeon KIM
+  points: '188.22'
+- category: SeniorWomen
+  compID: GP USA
+  country: FRA
+  name: Lea SERNA
+  points: '175.05'
+- category: SeniorWomen
+  compID: GP USA
+  country: KOR
+  name: Haein LEE
+  points: '172.99'
+- category: SeniorWomen
+  compID: GP USA
+  country: JPN
+  name: Hana YOSHIDA
+  points: '170.92'
+- category: SeniorWomen
+  compID: GP USA
+  country: POL
+  name: Ekaterina KURAKOVA
+  points: '163.77'
+- category: SeniorWomen
+  compID: GP USA
+  country: JPN
+  name: Wakaba HIGUCHI
+  points: '159.40'
+- category: SeniorWomen
+  compID: GP USA
+  country: USA
+  name: Josephine LEE
+  points: '147.28'
+- category: SeniorWomen
   compID: Graz Ice Challenge
   country: CAN
   name: Gabrielle DALEMAN
