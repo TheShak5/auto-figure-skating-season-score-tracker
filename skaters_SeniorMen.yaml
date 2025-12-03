@@ -1,5 +1,65 @@
 skaters:
 - category: SeniorMen
+  compID: GP USA
+  country: FRA
+  name: Kevin AYMOZ
+  points: '253.53'
+- category: SeniorMen
+  compID: GP USA
+  country: KAZ
+  name: Mikhail SHAIDOROV
+  points: '251.09'
+- category: SeniorMen
+  compID: GP USA
+  country: JPN
+  name: Kazuki TOMONO
+  points: '245.57'
+- category: SeniorMen
+  compID: GP USA
+  country: USA
+  name: Jason BROWN
+  points: '239.59'
+- category: SeniorMen
+  compID: GP USA
+  country: ITA
+  name: Daniel GRASSL
+  points: '236.44'
+- category: SeniorMen
+  compID: GP USA
+  country: AZE
+  name: Vladimir LITVINTSEV
+  points: '231.84'
+- category: SeniorMen
+  compID: GP USA
+  country: ITA
+  name: Nikolaj MEMOLA
+  points: '231.02'
+- category: SeniorMen
+  compID: GP USA
+  country: JPN
+  name: Tatsuya TSUBOI
+  points: '228.03'
+- category: SeniorMen
+  compID: GP USA
+  country: USA
+  name: Liam KAPEIKIS
+  points: '214.29'
+- category: SeniorMen
+  compID: GP USA
+  country: FRA
+  name: Luc ECONOMIDES
+  points: '201.36'
+- category: SeniorMen
+  compID: GP USA
+  country: CHN
+  name: Daiwei DAI
+  points: '190.90'
+- category: SeniorMen
+  compID: GP USA
+  country: ITA
+  name: Corey CIRCELLI
+  points: '190.55'
+- category: SeniorMen
   compID: Graz Ice Challenge
   country: USA
   name: Maxim NAUMOV
