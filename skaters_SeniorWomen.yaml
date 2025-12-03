@@ -1,5 +1,55 @@
 skaters:
 - category: SeniorWomen
+  compID: GP Finland
+  country: JPN
+  name: Mone CHIBA
+  points: '217.22'
+- category: SeniorWomen
+  compID: GP Finland
+  country: USA
+  name: Amber GLENN
+  points: '213.41'
+- category: SeniorWomen
+  compID: GP Finland
+  country: JPN
+  name: Rino MATSUIKE
+  points: '193.21'
+- category: SeniorWomen
+  compID: GP Finland
+  country: USA
+  name: Bradie TENNELL
+  points: '190.38'
+- category: SeniorWomen
+  compID: GP Finland
+  country: CAN
+  name: Madeline SCHIZAS
+  points: '188.60'
+- category: SeniorWomen
+  compID: GP Finland
+  country: FIN
+  name: Iida KARHUNEN
+  points: '180.17'
+- category: SeniorWomen
+  compID: GP Finland
+  country: JPN
+  name: Rion SUMIYOSHI
+  points: '178.26'
+- category: SeniorWomen
+  compID: GP Finland
+  country: FRA
+  name: Lorine SCHILD
+  points: '175.63'
+- category: SeniorWomen
+  compID: GP Finland
+  country: FIN
+  name: Olivia LISKO
+  points: '164.67'
+- category: SeniorWomen
+  compID: GP Finland
+  country: FIN
+  name: Selma VALITALO
+  points: '142.47'
+- category: SeniorWomen
   compID: Graz Ice Challenge
   country: CAN
   name: Gabrielle DALEMAN

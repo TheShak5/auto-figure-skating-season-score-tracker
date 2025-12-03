@@ -1,5 +1,65 @@
 skaters:
 - category: SeniorMen
+  compID: GP Finland
+  country: JPN
+  name: Yuma KAGIYAMA
+  points: '270.45'
+- category: SeniorMen
+  compID: GP Finland
+  country: FRA
+  name: Adam SIAO HIM FA
+  points: '256.98'
+- category: SeniorMen
+  compID: GP Finland
+  country: CAN
+  name: Stephen GOGOLEV
+  points: '253.61'
+- category: SeniorMen
+  compID: GP Finland
+  country: CAN
+  name: Roman SADOVSKY
+  points: '243.29'
+- category: SeniorMen
+  compID: GP Finland
+  country: USA
+  name: Jason BROWN
+  points: '243.17'
+- category: SeniorMen
+  compID: GP Finland
+  country: JPN
+  name: Sota YAMAMOTO
+  points: '238.45'
+- category: SeniorMen
+  compID: GP Finland
+  country: ITA
+  name: Matteo RIZZO
+  points: '229.55'
+- category: SeniorMen
+  compID: GP Finland
+  country: EST
+  name: Mihhail SELEVKO
+  points: '218.25'
+- category: SeniorMen
+  compID: GP Finland
+  country: SWE
+  name: Andreas NORDEBACK
+  points: '212.61'
+- category: SeniorMen
+  compID: GP Finland
+  country: LAT
+  name: Deniss VASILJEVS
+  points: '210.08'
+- category: SeniorMen
+  compID: GP Finland
+  country: USA
+  name: Jimmy MA
+  points: '196.11'
+- category: SeniorMen
+  compID: GP Finland
+  country: FIN
+  name: Valtter VIRTANEN
+  points: '173.79'
+- category: SeniorMen
   compID: Graz Ice Challenge
   country: USA
   name: Maxim NAUMOV

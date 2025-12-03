@@ -1,5 +1,45 @@
 skaters:
 - category: SeniorPairs
+  compID: GP Finland
+  country: GER
+  name: Minerva Fabienne HASE / Nikita VOLODIN
+  points: '206.88'
+- category: SeniorPairs
+  compID: GP Finland
+  country: USA
+  name: Alisa EFIMOVA / Misha MITROFANOV
+  points: '205.49'
+- category: SeniorPairs
+  compID: GP Finland
+  country: USA
+  name: Ellie KAM / Danny O'SHEA
+  points: '199.09'
+- category: SeniorPairs
+  compID: GP Finland
+  country: JPN
+  name: Yuna NAGAOKA / Sumitada MORIGUCHI
+  points: '193.12'
+- category: SeniorPairs
+  compID: GP Finland
+  country: CAN
+  name: Lia PEREIRA / Trennt MICHAUD
+  points: '191.33'
+- category: SeniorPairs
+  compID: GP Finland
+  country: CHN
+  name: Jiaxuan ZHANG / Yihang HUANG
+  points: '185.28'
+- category: SeniorPairs
+  compID: GP Finland
+  country: ITA
+  name: Rebecca GHILARDI / Filippo AMBROSINI
+  points: '167.88'
+- category: SeniorPairs
+  compID: GP Finland
+  country: POL
+  name: Ioulia CHTCHETININA / Michal WOZNIAK
+  points: '155.59'
+- category: SeniorPairs
   compID: Graz Ice Challenge
   country: USA
   name: Chelsea LIU / Ryan BEDARD
