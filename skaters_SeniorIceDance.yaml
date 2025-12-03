@@ -1,5 +1,55 @@
 skaters:
 - category: SeniorIceDance
+  compID: GP Finland
+  country: FRA
+  name: Laurence FOURNIER BEAUDRY / Guillaume CIZERON
+  points: '204.18'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: CAN
+  name: Piper GILLES / Paul POIRIER
+  points: '202.11'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: USA
+  name: Emilea ZINGAS / Vadym KOLESNIK
+  points: '196.02'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: ESP
+  name: Olivia SMART / Tim DIECK
+  points: '192.06'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: USA
+  name: Maia SHIBUTANI / Alex SHIBUTANI
+  points: '185.68'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: GEO
+  name: Diana DAVIS / Gleb SMOLKIN
+  points: '184.13'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: FIN
+  name: Yuka ORIHARA / Juho PIRINEN
+  points: '176.77'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: CZE
+  name: Natalie TASCHLEROVA / Filip TASCHLER
+  points: '172.95'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: USA
+  name: Oona BROWN / Gage BROWN
+  points: '170.47'
+- category: SeniorIceDance
+  compID: GP Finland
+  country: GBR
+  name: Phebe BEKKER / James HERNANDEZ
+  points: '165.60'
+- category: SeniorIceDance
   compID: Graz Ice Challenge
   country: USA
   name: Eva PATE / Logan BYE
