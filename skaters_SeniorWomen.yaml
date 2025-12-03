@@ -1,5 +1,120 @@
 skaters:
 - category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: FIN
+  name: Olivia LISKO
+  points: '196.23'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Sarah EVERHARDT
+  points: '184.88'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Alina BONILLO
+  points: '183.59'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Niina PETROKINA
+  points: '178.61'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Starr ANDREWS
+  points: '178.40'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Chiara MINIGHINI
+  points: '164.55'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: SWE
+  name: Josefin TALJEGARD
+  points: '158.14'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Kristina LISOVSKAJA
+  points: '154.70'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Julia GRABOWSKI
+  points: '151.16'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Elena AGOSTINELLI
+  points: '148.62'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Anna Elizabeth GREKUL
+  points: '145.73'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: FRA
+  name: Clemence MAYINDU
+  points: '139.75'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: FIN
+  name: Minja PELTONEN
+  points: '139.74'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Livia KAISER
+  points: '137.38'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: FIN
+  name: Janna JYRKINEN
+  points: '131.70'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: LAT
+  name: Angelina KUCHVALSKA
+  points: '131.32'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: LAT
+  name: Ksenija HEIMANE
+  points: '130.50'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Olesja LEONOVA
+  points: '129.26'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: SWE
+  name: Alexandra ODMAN
+  points: '117.86'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: LAT
+  name: Nikola FOMCHENKOVA
+  points: '115.44'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: UKR
+  name: Sofiia HRYHORENKO
+  points: '112.67'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Karoliine RAUDSEPP
+  points: '112.16'
+- category: SeniorWomen
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Ina JUNGMANN
+  points: '105.97'
+- category: SeniorWomen
   compID: GP Finland
   country: JPN
   name: Mone CHIBA
@@ -330,87 +445,87 @@ skaters:
   name: Livia KAISER
   points: '134.83'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Isabeau LEVITO
   points: '207.61'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: KAZ
   name: Sofia SAMODELKINA
   points: '203.15'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: KOR
   name: Jia SHIN
   points: '179.97'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Sonja HILMER
   points: '165.83'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Josephine LEE
   points: '160.99'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Katie SHEN
   points: '154.75'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: SWE
   name: Olivia Elin PHILLIPS
   points: '147.05'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: MEX
   name: Andrea MONTESINOS CANTU
   points: '146.96'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: KOR
   name: Minchae KIM
   points: '140.95'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Brooke GEWALT
   points: '136.83'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: AUS
   name: Sienna KACZMARCZYK
   points: '132.63'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: MEX
   name: Andrea ASTRAIN MAYNEZ
   points: '125.02'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: NZL
   name: Petra LAHTI
   points: '115.90'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: AUS
   name: Simona BHASIN
   points: '94.93'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: MEX
   name: Alejandra OSUNA TIRADO
   points: '87.13'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: ARG
   name: Sophia Natalie DAYAN
   points: '85.52'
 - category: SeniorWomen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: TPE
   name: Mya Li POE
   points: '84.31'

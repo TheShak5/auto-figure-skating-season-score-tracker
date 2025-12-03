@@ -1,5 +1,120 @@
 skaters:
 - category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Aleksandr SELEVKO
+  points: '237.67'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Matteo RIZZO
+  points: '231.45'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: EST
+  name: Arlet LEVANDI
+  points: '228.52'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Maxim NAUMOV
+  points: '223.04'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: UKR
+  name: Kyrylo MARSAK
+  points: '221.25'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Genrikh GARTUNG
+  points: '216.65'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Corey CIRCELLI
+  points: '212.41'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Liam KAPEIKIS
+  points: '211.74'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: ESP
+  name: Tomas-Llorenc GUARINO SABATE
+  points: '205.69'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: CZE
+  name: Georgii RESHTENKO
+  points: '191.36'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Ean WEILER
+  points: '190.93'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Nikita STAROSTIN
+  points: '190.92'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: FIN
+  name: Makar SUNTSEV
+  points: '188.05'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: MON
+  name: Davide LEWTON BRAIN
+  points: '185.59'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Nico STEFFEN
+  points: '183.36'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: AUT
+  name: Tobia OELLERER
+  points: '180.99'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: FIN
+  name: Valtter VIRTANEN
+  points: '179.36'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: SWE
+  name: Hugo BOSTEDT
+  points: '177.56'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: FRA
+  name: Xavier VAUCLIN
+  points: '174.64'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: BUL
+  name: Alexander ZLATKOV
+  points: '167.56'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Noah BODENSTEIN
+  points: '166.19'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: ECU
+  name: Gabriel MARTINEZ
+  points: '139.79'
+- category: SeniorMen
+  compID: Tallinn Trophy 2025
+  country: ESP
+  name: Adrian JIMENEZ de BALDOMERO
+  points: '136.51'
+- category: SeniorMen
   compID: GP Finland
   country: JPN
   name: Yuma KAGIYAMA
@@ -335,87 +450,87 @@ skaters:
   name: Gabriele FRANGIPANI
   points: '197.99'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: CAN
   name: Roman SADOVSKY
   points: '243.23'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: EST
   name: Aleksandr SELEVKO
   points: '235.70'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: CAN
   name: Stephen GOGOLEV
   points: '231.81'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: ISR
   name: Tamir KUPERMAN
   points: '211.87'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Jacob SANCHEZ
   points: '211.31'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: MEX
   name: Donovan CARRILLO
   points: '208.51'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Jimmy MA
   points: '207.53'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Liam KAPEIKIS
   points: '201.94'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Tomoki HIWATASHI
   points: '201.66'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: KOR
   name: Jaekeun LEE
   points: '198.50'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: ISR
   name: Mark GORODNITSKY
   points: '193.08'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Kai KOVAR
   points: '189.91'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: ARM
   name: Semen DANILIANTS
   points: '187.48'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: ISR
   name: Lev VINOKUR
   points: '170.34'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: KOR
   name: Juheon LIM
   points: '161.89'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Daniel MARTYNOV
   points: '153.00'
 - category: SeniorMen
-  compID: CranberryCup
+  compID: Cranberry Cup 2025
   country: USA
   name: Jared SEDLIS
   points: '139.71'

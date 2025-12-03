@@ -1,5 +1,75 @@
 skaters:
 - category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: ESP
+  name: Olivia SMART / Tim DIECK
+  points: '192.67'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Jennifer JANSE van RENSBURG / Benjamin STEFFAN
+  points: '192.31'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: CZE
+  name: Natalie TASCHLEROVA / Filip TASCHLER
+  points: '191.00'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Eva PATE / Logan BYE
+  points: '182.81'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: ESP
+  name: Sofia VAL / Asaf KAZIMOV
+  points: '181.45'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: FRA
+  name: Natacha LAGOUGE / Arnaud CAFFA
+  points: '175.02'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Victoria MANNI / Carlo ROETHLISBERGER
+  points: '171.43'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: IRL
+  name: Carolane SOUCISSE / Shane FIRUS
+  points: '167.55'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: USA
+  name: Amy CUI / Jonathan ROGERS
+  points: '160.01'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Gina ZEHNDER / Beda Leon SIEBER
+  points: '154.42'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: GER
+  name: Lilia SCHUBERT / Nikita REMESHEVSKIY
+  points: '153.58'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Laura FINELLI / Massimiliano BUCCIARELLI
+  points: '150.54'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: SUI
+  name: Arianna SASSI / Luca MORINI
+  points: '147.67'
+- category: SeniorIceDance
+  compID: Tallinn Trophy 2025
+  country: ITA
+  name: Carlotta ARGENTIERI / Francesco RIVA
+  points: '139.65'
+- category: SeniorIceDance
   compID: GP Finland
   country: FRA
   name: Laurence FOURNIER BEAUDRY / Guillaume CIZERON
