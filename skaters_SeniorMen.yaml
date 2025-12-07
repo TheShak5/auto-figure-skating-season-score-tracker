@@ -1,5 +1,145 @@
 skaters:
 - category: SeniorMen
+  compID: Golden Spin 2025
+  country: FRA
+  name: Kevin AYMOZ
+  points: '239.52'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: EST
+  name: Arlet LEVANDI
+  points: '226.88'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: FRA
+  name: Luc ECONOMIDES
+  points: '219.60'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: LAT
+  name: Deniss VASILJEVS
+  points: '219.57'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: USA
+  name: Jacob SANCHEZ
+  points: '216.59'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: USA
+  name: Daniel MARTYNOV
+  points: '216.34'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: CRO
+  name: Jari KESSLER
+  points: '214.45'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: UKR
+  name: Ivan SHMURATKO
+  points: '209.07'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: FRA
+  name: Francois PITOT
+  points: '208.73'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: ITA
+  name: Corey CIRCELLI
+  points: '206.39'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: CZE
+  name: Georgii RESHTENKO
+  points: '201.27'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: EST
+  name: Mihhail SELEVKO
+  points: '199.25'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: FIN
+  name: Matias LINDFORS
+  points: '194.14'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: SUI
+  name: Nico STEFFEN
+  points: '192.59'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: ISR
+  name: Tamir KUPERMAN
+  points: '192.46'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: MON
+  name: Davide LEWTON BRAIN
+  points: '189.80'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: TUR
+  name: Alp Eren OZKAN
+  points: '189.06'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: ISR
+  name: Lev VINOKUR
+  points: '178.96'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: POL
+  name: Jakub LOFEK
+  points: '174.64'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: FIN
+  name: Valtter VIRTANEN
+  points: '171.45'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: SLO
+  name: David SEDEJ
+  points: '156.72'
+- category: SeniorMen
+  compID: Golden Spin 2025
+  country: IRL
+  name: Dillon JUDGE
+  points: '128.31'
+- category: SeniorMen
+  compID: GP Final
+  country: USA
+  name: Ilia MALININ
+  points: '332.29'
+- category: SeniorMen
+  compID: GP Final
+  country: JPN
+  name: Yuma KAGIYAMA
+  points: '302.41'
+- category: SeniorMen
+  compID: GP Final
+  country: JPN
+  name: Shun SATO
+  points: '292.08'
+- category: SeniorMen
+  compID: GP Final
+  country: ITA
+  name: Daniel GRASSL
+  points: '288.72'
+- category: SeniorMen
+  compID: GP Final
+  country: FRA
+  name: Adam SIAO HIM FA
+  points: '258.64'
+- category: SeniorMen
+  compID: GP Final
+  country: KAZ
+  name: Mikhail SHAIDOROV
+  points: '242.19'
+- category: SeniorMen
   compID: Tallinn Trophy 2025
   country: EST
   name: Aleksandr SELEVKO

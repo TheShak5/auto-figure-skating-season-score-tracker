@@ -1,5 +1,185 @@
 skaters:
 - category: SeniorWomen
+  compID: Golden Spin 2025
+  country: USA
+  name: Bradie TENNELL
+  points: '194.97'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: FIN
+  name: Iida KARHUNEN
+  points: '187.05'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: KAZ
+  name: Sofia SAMODELKINA
+  points: '182.63'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: ITA
+  name: Marina PIREDDA
+  points: '178.94'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: USA
+  name: Elyce LIN-GRACEY
+  points: '175.80'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: FRA
+  name: Lea SERNA
+  points: '171.93'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: BEL
+  name: Nina PINZARRONE
+  points: '167.41'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: CYP
+  name: Stefania YAKOVLEVA
+  points: '167.18'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: FRA
+  name: Lorine SCHILD
+  points: '162.96'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: EST
+  name: Nataly LANGERBAUR
+  points: '157.60'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: USA
+  name: Ava Marie ZIEGLER
+  points: '150.98'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: ISR
+  name: Elizabet GERVITS
+  points: '150.83'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: MDA
+  name: Anastasia GRACHEVA
+  points: '149.68'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: NED
+  name: Niki WORIES
+  points: '142.68'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: LTU
+  name: Meda VARIAKOJYTE
+  points: '142.03'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: CYP
+  name: Marilena KITROMILIS
+  points: '141.03'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: AZE
+  name: Nargiz SUELEYMANOVA
+  points: '138.96'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: LTU
+  name: Aleksandra GOLOVKINA-DOLINSKE
+  points: '137.97'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: GER
+  name: Julia GRABOWSKI
+  points: '134.48'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: BUL
+  name: Alexandra FEIGIN
+  points: '132.35'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: EST
+  name: Olesja LEONOVA
+  points: '130.95'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: GER
+  name: Sarah Marie PESCH
+  points: '129.27'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: LTU
+  name: Jogaile AGLINSKYTE
+  points: '128.34'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: UKR
+  name: Taisiia SPESIVTSEVA
+  points: '117.12'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: SRB
+  name: Ana SCEPANOVIC
+  points: '116.82'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: POL
+  name: Marietta ATKINS
+  points: '114.89'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: TUR
+  name: Salma AGAMOVA
+  points: '111.95'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: NED
+  name: Jolanda VOS
+  points: '106.67'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: CRO
+  name: Meri MARINAC
+  points: '87.77'
+- category: SeniorWomen
+  compID: Golden Spin 2025
+  country: ISR
+  name: Julia FENNELL
+  points: '82.54'
+- category: SeniorWomen
+  compID: GP Final
+  country: USA
+  name: Alysa LIU
+  points: '222.49'
+- category: SeniorWomen
+  compID: GP Final
+  country: JPN
+  name: Ami NAKAI
+  points: '220.89'
+- category: SeniorWomen
+  compID: GP Final
+  country: JPN
+  name: Kaori SAKAMOTO
+  points: '218.80'
+- category: SeniorWomen
+  compID: GP Final
+  country: USA
+  name: Amber GLENN
+  points: '211.50'
+- category: SeniorWomen
+  compID: GP Final
+  country: JPN
+  name: Mone CHIBA
+  points: '210.22'
+- category: SeniorWomen
+  compID: GP Final
+  country: JPN
+  name: Rinka WATANABE
+  points: '207.14'
+- category: SeniorWomen
   compID: Tallinn Trophy 2025
   country: FIN
   name: Olivia LISKO

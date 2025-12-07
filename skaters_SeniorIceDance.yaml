@@ -1,5 +1,135 @@
 skaters:
 - category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: ITA
+  name: Charlene GUIGNARD / Marco FABBRI
+  points: '204.18'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: FRA
+  name: Loicia DEMOUGEOT / Theo le MERCIER
+  points: '187.84'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: CZE
+  name: Katerina MRAZKOVA / Daniel MRAZEK
+  points: '184.18'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: USA
+  name: Oona BROWN / Gage BROWN
+  points: '180.30'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: USA
+  name: Leah NESET / Artem MARKELOV
+  points: '168.58'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: ISR
+  name: Shira ICHILOV / Mikhail NOSOVITSKIY
+  points: '166.39'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: CYP
+  name: Angelina KUDRYAVTSEVA / Ilia KARANKEVICH
+  points: '165.13'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: FRA
+  name: Celina FRADJI / Jean-Hans FOURNEAUX
+  points: '162.91'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: ITA
+  name: Noemi Maria TALI / Noah LAFORNARA
+  points: '159.23'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: GEO
+  name: Maria KAZAKOVA / Vladislav KASINSKIJ
+  points: '156.08'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: FRA
+  name: Louise BORDET / Martin CHARDAIN
+  points: '153.58'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: UKR
+  name: Mariia PINCHUK / Mykyta POGORIELOV
+  points: '149.53'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: JPN
+  name: Ikura KUSHIDA / Koshiro SHIMADA
+  points: '148.62'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: CHN
+  name: Zixi XIAO / Linghao HE
+  points: '142.30'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: ITA
+  name: Denisa CIMLOVA / Stefano FRASCA
+  points: '141.14'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: SUI
+  name: Gina ZEHNDER / Beda Leon SIEBER
+  points: '140.02'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: CHN
+  name: Yufei LIN / Zijian GAO
+  points: '138.01'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: NED
+  name: Chelsea VERHAEGH / Sherim van GEFFEN
+  points: '132.22'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: BRA
+  name: Natalia PALLU-NEVES / Jayin PANESAR
+  points: '131.09'
+- category: SeniorIceDance
+  compID: Golden Spin 2025
+  country: POL
+  name: Olexandra BORYSOVA / Aaron FREEMAN
+  points: '112.26'
+- category: SeniorIceDance
+  compID: GP Final
+  country: USA
+  name: Madison CHOCK / Evan BATES
+  points: '220.42'
+- category: SeniorIceDance
+  compID: GP Final
+  country: FRA
+  name: Laurence FOURNIER BEAUDRY / Guillaume CIZERON
+  points: '214.25'
+- category: SeniorIceDance
+  compID: GP Final
+  country: GBR
+  name: Lilah FEAR / Lewis GIBSON
+  points: '208.81'
+- category: SeniorIceDance
+  compID: GP Final
+  country: CAN
+  name: Piper GILLES / Paul POIRIER
+  points: '208.75'
+- category: SeniorIceDance
+  compID: GP Final
+  country: LTU
+  name: Allison REED / Saulius AMBRULEVICIUS
+  points: '199.61'
+- category: SeniorIceDance
+  compID: GP Final
+  country: USA
+  name: Emilea ZINGAS / Vadym KOLESNIK
+  points: '193.61'
+- category: SeniorIceDance
   compID: Tallinn Trophy 2025
   country: ESP
   name: Olivia SMART / Tim DIECK

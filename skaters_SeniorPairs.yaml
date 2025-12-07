@@ -1,5 +1,110 @@
 skaters:
 - category: SeniorPairs
+  compID: Golden Spin 2025
+  country: USA
+  name: Audrey SHIN / Balazs NAGY
+  points: '194.00'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: USA
+  name: Valentina PLAZAS / Maximiliano FERNANDEZ
+  points: '183.17'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: SUI
+  name: Oxana VOUILLAMOZ / Tom BOUVART
+  points: '177.61'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: FRA
+  name: Aurelie FAULA / Theo BELLE
+  points: '175.14'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: CZE
+  name: Anna VALESI / Martin BIDAR
+  points: '168.52'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: ITA
+  name: Irma CALDARA / Riccardo MAGLIO
+  points: '168.25'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: USA
+  name: Chelsea LIU / Ryan BEDARD
+  points: '163.88'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: NED
+  name: Daria DANILOVA / Michel TSIBA
+  points: '160.38'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: AUT
+  name: Sophia SCHALLER / Livio MAYR
+  points: '157.90'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: FRA
+  name: Megan WESSENBERG / Denys STREKALIN
+  points: '154.86'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: GER
+  name: Letizia ROSCHER / Luis SCHUSTER
+  points: '152.15'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: UKR
+  name: Sofiia HOLICHENKO / Artem DARENSKYI
+  points: '148.00'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: PHI
+  name: Isabella GAMEZ / Aleksandr KOROVIN
+  points: '137.39'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: GBR
+  name: Neamh DAVISON / Daniel BORISOV
+  points: '130.42'
+- category: SeniorPairs
+  compID: Golden Spin 2025
+  country: RSA
+  name: Julia MAUDER / Johannes WILKINSON
+  points: '121.49'
+- category: SeniorPairs
+  compID: GP Final
+  country: JPN
+  name: Riku MIURA / Ryuichi KIHARA
+  points: '225.21'
+- category: SeniorPairs
+  compID: GP Final
+  country: ITA
+  name: Sara CONTI / Niccolo MACII
+  points: '223.28'
+- category: SeniorPairs
+  compID: GP Final
+  country: GER
+  name: Minerva Fabienne HASE / Nikita VOLODIN
+  points: '221.25'
+- category: SeniorPairs
+  compID: GP Final
+  country: GEO
+  name: Anastasiia METELKINA / Luka BERULAVA
+  points: '211.53'
+- category: SeniorPairs
+  compID: GP Final
+  country: HUN
+  name: Maria PAVLOVA / Alexei SVIATCHENKO
+  points: '208.33'
+- category: SeniorPairs
+  compID: GP Final
+  country: CAN
+  name: Deanna STELLATO-DUDEK / Maxime DESCHAMPS
+  points: '194.36'
+- category: SeniorPairs
   compID: GP Finland
   country: GER
   name: Minerva Fabienne HASE / Nikita VOLODIN
