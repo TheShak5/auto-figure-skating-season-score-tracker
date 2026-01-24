@@ -120,36 +120,6 @@ skaters:
   name: Edward APPLEBY
   points: '181.72'
 - category: SeniorMen
-  compID: Europeans 2026
-  country: null
-  name: null
-  points: ''
-- category: SeniorMen
-  compID: Europeans 2026
-  country: POL
-  name: Jakub LOFEK
-  points: '59.76'
-- category: SeniorMen
-  compID: Europeans 2026
-  country: TUR
-  name: Alp Eren OZKAN
-  points: '58.47'
-- category: SeniorMen
-  compID: Europeans 2026
-  country: FRA
-  name: Kevin AYMOZ
-  points: '53.95'
-- category: SeniorMen
-  compID: Europeans 2026
-  country: BUL
-  name: Alexander ZLATKOV
-  points: '50.90'
-- category: SeniorMen
-  compID: Europeans 2026
-  country: SLO
-  name: David SEDEJ
-  points: '46.18'
-- category: SeniorMen
   compID: Golden Spin 2025
   country: FRA
   name: Kevin AYMOZ
