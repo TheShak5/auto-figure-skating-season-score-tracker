@@ -1,5 +1,310 @@
 skaters:
 - category: SeniorWomen
+  compID: 4CC 2026
+  country: JPN
+  name: Yuna AOKI
+  points: '217.39'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: JPN
+  name: Ami NAKAI
+  points: '215.78'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: JPN
+  name: Mone CHIBA
+  points: '202.23'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: USA
+  name: Bradie TENNELL
+  points: '199.37'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: KOR
+  name: Haein LEE
+  points: '192.66'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: KOR
+  name: Jia SHIN
+  points: '185.06'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CAN
+  name: Gabrielle DALEMAN
+  points: '183.47'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: USA
+  name: Sarah EVERHARDT
+  points: '182.72'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: KAZ
+  name: Sofia SAMODELKINA
+  points: '182.51'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CHN
+  name: Ruiyang ZHANG
+  points: '178.61'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CAN
+  name: Fee Ann LANDRY
+  points: '177.18'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CHN
+  name: Yi ZHU
+  points: '174.00'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CAN
+  name: Sara-Maude DUPUIS
+  points: '166.95'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: KOR
+  name: Ahsun YUN
+  points: '160.74'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: USA
+  name: Starr ANDREWS
+  points: '160.74'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: CHN
+  name: Xiangyi AN
+  points: '140.66'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: RSA
+  name: Gian-Quen ISAACS
+  points: '137.05'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: IND
+  name: Tara PRASAD
+  points: '134.66'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: HKG
+  name: Tsz Ching CHAN
+  points: '130.33'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: MEX
+  name: Andrea MONTESINOS CANTU
+  points: '127.97'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: KAZ
+  name: Amira IRMATOVA
+  points: '123.20'
+- category: SeniorWomen
+  compID: 4CC 2026
+  country: NZL
+  name: Petra LAHTI
+  points: '102.48'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: EST
+  name: Niina PETROKINA
+  points: '216.14'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: BEL
+  name: Loena HENDRICKX
+  points: '191.26'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ITA
+  name: Lara Naki GUTMANN
+  points: '186.87'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: BEL
+  name: Nina PINZARRONE
+  points: '185.40'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: GEO
+  name: Anastasiia GUBANOVA
+  points: '184.36'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ITA
+  name: Sarina JOOS
+  points: '180.84'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SUI
+  name: Kimmy REPOND
+  points: '177.89'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ITA
+  name: Anna PEZZETTA
+  points: '177.14'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: POL
+  name: Ekaterina KURAKOVA
+  points: '175.15'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: FIN
+  name: Iida KARHUNEN
+  points: '174.49'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ROU
+  name: Julia SAUTER
+  points: '174.37'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: CYP
+  name: Stefania YAKOVLEVA
+  points: '173.17'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: AUT
+  name: Olga MIKUTINA
+  points: '166.55'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: NOR
+  name: Mia RISA GOMEZ
+  points: '158.29'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: FRA
+  name: Lea SERNA
+  points: '157.09'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SWE
+  name: Josefin TALJEGARD
+  points: '156.99'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SUI
+  name: Livia KAISER
+  points: '154.04'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: FRA
+  name: Lorine SCHILD
+  points: '153.29'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: EST
+  name: Nataly LANGERBAUR
+  points: '151.61'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SVK
+  name: Vanesa SELMEKOVA
+  points: '151.31'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ISR
+  name: Mariia SENIUK
+  points: '148.51'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SLO
+  name: Julija LOVRENCIC
+  points: '140.70'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: GBR
+  name: Kristen SPOURS
+  points: '137.14'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: LTU
+  name: Jogaile AGLINSKYTE
+  points: '114.01'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: null
+  name: null
+  points: ''
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: BUL
+  name: Alexandra FEIGIN
+  points: '49.70'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: EST
+  name: Kristina LISOVSKAJA
+  points: '49.62'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: SRB
+  name: Antonina DUBININA
+  points: '49.56'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: NED
+  name: Niki WORIES
+  points: '48.14'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: ESP
+  name: Ariadna GUPTA ESPADA
+  points: '46.76'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: AZE
+  name: Nargiz SUELEYMANOVA
+  points: '46.60'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: GBR
+  name: Nina POVEY
+  points: '46.11'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: HUN
+  name: Katinka Anna ZSEMBERY
+  points: '45.93'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: MDA
+  name: Anastasia GRACHEVA
+  points: '45.59'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: CZE
+  name: Barbora VRANKOVA
+  points: '44.67'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: UKR
+  name: Yelizaveta BABENKO
+  points: '43.76'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: GRE
+  name: Lucrezia GENNARO
+  points: '43.20'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: LAT
+  name: Nikola FOMCHENKOVA
+  points: '42.76'
+- category: SeniorWomen
+  compID: Europeans 2026
+  country: POL
+  name: Laura SZCZESNA
+  points: '40.51'
+- category: SeniorWomen
   compID: Golden Spin 2025
   country: USA
   name: Bradie TENNELL

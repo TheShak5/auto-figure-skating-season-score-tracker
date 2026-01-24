@@ -1,5 +1,85 @@
 skaters:
 - category: SeniorPairs
+  compID: Europeans 2026
+  country: GEO
+  name: Anastasiia METELKINA / Luka BERULAVA
+  points: '215.76'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: GER
+  name: Minerva Fabienne HASE / Nikita VOLODIN
+  points: '203.87'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: HUN
+  name: Maria PAVLOVA / Alexei SVIATCHENKO
+  points: '202.56'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: GER
+  name: Annika HOCKE / Robert KUNKEL
+  points: '188.27'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: SUI
+  name: Oxana VOUILLAMOZ / Tom BOUVART
+  points: '183.31'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: ITA
+  name: Rebecca GHILARDI / Filippo AMBROSINI
+  points: '174.31'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: GBR
+  name: Anastasia VAIPAN-LAW / Luke DIGBY
+  points: '173.52'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: POL
+  name: Ioulia CHTCHETININA / Michal WOZNIAK
+  points: '168.84'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: CZE
+  name: Anna VALESI / Martin BIDAR
+  points: '167.42'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: FRA
+  name: Camille KOVALEV / Pavel KOVALEV
+  points: '165.09'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: ISL
+  name: Julia Sylvia GUNNARSDOTTIR / Manuel PIAZZA
+  points: '162.62'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: AUT
+  name: Gabriella IZZO / Luc MAIERHOFER
+  points: '158.08'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: ITA
+  name: Irma CALDARA / Riccardo MAGLIO
+  points: '153.62'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: FRA
+  name: Aurelie FAULA / Theo BELLE
+  points: '152.85'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: NED
+  name: Daria DANILOVA / Michel TSIBA
+  points: '149.33'
+- category: SeniorPairs
+  compID: Europeans 2026
+  country: UKR
+  name: Sofiia HOLICHENKO / Artem DARENSKYI
+  points: '126.78'
+- category: SeniorPairs
   compID: Golden Spin 2025
   country: USA
   name: Audrey SHIN / Balazs NAGY

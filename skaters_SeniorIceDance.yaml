@@ -1,5 +1,225 @@
 skaters:
 - category: SeniorIceDance
+  compID: 4CC 2025
+  country: USA
+  name: Emilea ZINGAS / Vadym KOLESNIK
+  points: '202.86'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: USA
+  name: Caroline GREEN / Michael PARSONS
+  points: '194.72'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: USA
+  name: Oona BROWN / Gage BROWN
+  points: '190.78'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CAN
+  name: Alicia FABBRI / Paul AYER
+  points: '183.49'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: AUS
+  name: Holly HARRIS / Jason CHAN
+  points: '177.08'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: KOR
+  name: Hannah LIM / Ye QUAN
+  points: '176.97'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: JPN
+  name: Utana YOSHIDA / Masaya MORITA
+  points: '170.66'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CAN
+  name: Lily HENSEN / Nathan LICKERS
+  points: '164.56'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CHN
+  name: Shiyue WANG / Xinyu LIU
+  points: '164.34'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CHN
+  name: Junfei REN / Jianing XING
+  points: '158.67'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CHN
+  name: Zixi XIAO / Linghao HE
+  points: '154.08'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: KAZ
+  name: Gaukhar NAURYZOVA / Boyisangur DATIEV
+  points: '137.34'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: CAN
+  name: Jamie FOURNIER / Everest ZHU
+  points: '134.00'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: BRA
+  name: Natalia PALLU-NEVES / Jayin PANESAR
+  points: '132.06'
+- category: SeniorIceDance
+  compID: 4CC 2025
+  country: MEX
+  name: Harlow Lynella STANLEY / Seiji URANO
+  points: '120.42'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FRA
+  name: Laurence FOURNIER BEAUDRY / Guillaume CIZERON
+  points: '222.43'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: ITA
+  name: Charlene GUIGNARD / Marco FABBRI
+  points: '210.34'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: GBR
+  name: Lilah FEAR / Lewis GIBSON
+  points: '209.51'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FRA
+  name: Evgeniia LOPAREVA / Geoffrey BRISSAUD
+  points: '204.72'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: LTU
+  name: Allison REED / Saulius AMBRULEVICIUS
+  points: '200.29'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: GEO
+  name: Diana DAVIS / Gleb SMOLKIN
+  points: '199.31'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: ESP
+  name: Olivia SMART / Tim DIECK
+  points: '196.44'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FIN
+  name: Juulia TURKKILA / Matthias VERSLUIS
+  points: '193.83'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FRA
+  name: Loicia DEMOUGEOT / Theo le MERCIER
+  points: '191.62'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: CZE
+  name: Natalie TASCHLEROVA / Filip TASCHLER
+  points: '189.47'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: GBR
+  name: Phebe BEKKER / James HERNANDEZ
+  points: '178.39'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FIN
+  name: Yuka ORIHARA / Juho PIRINEN
+  points: '175.76'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: SWE
+  name: Milla Ruud REITAN / Nikolaj MAJOROV
+  points: '175.74'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: ESP
+  name: Sofia VAL / Asaf KAZIMOV
+  points: '173.73'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: HUN
+  name: Mariia IGNATEVA / Danijil Leonyidovics SZEMKO
+  points: '171.63'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: ITA
+  name: Victoria MANNI / Carlo ROETHLISBERGER
+  points: '170.05'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: GER
+  name: Charise MATTHAEI / Max LIEBERS
+  points: '166.31'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: ISR
+  name: Shira ICHILOV / Mikhail NOSOVITSKIY
+  points: '158.33'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: IRL
+  name: Carolane SOUCISSE / Shane FIRUS
+  points: '150.99'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: UKR
+  name: Zoe LARSON / Andrii KAPRAN
+  points: '142.84'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: null
+  name: null
+  points: ''
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: SUI
+  name: Gina ZEHNDER / Beda Leon SIEBER
+  points: '59.12'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: CYP
+  name: Angelina KUDRYAVTSEVA / Ilia KARANKEVICH
+  points: '58.10'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: NED
+  name: Chelsea VERHAEGH / Sherim van GEFFEN
+  points: '55.42'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: AUT
+  name: Anita STRAUB / Andreas STRAUB
+  points: '54.07'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: POL
+  name: Sofiia DOVHAL / Wiktor KULESZA
+  points: '53.34'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: AZE
+  name: Samantha RITTER / Daniel BRYKALOV
+  points: '51.29'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: FIN
+  name: Daniela IVANITSKIY / Matthew SPERRY
+  points: '50.16'
+- category: SeniorIceDance
+  compID: Europeans 2026
+  country: BEL
+  name: Olivia Josephine SHILLING / Leo BAETEN
+  points: '49.54'
+- category: SeniorIceDance
   compID: Golden Spin 2025
   country: ITA
   name: Charlene GUIGNARD / Marco FABBRI

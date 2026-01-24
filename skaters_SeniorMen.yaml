@@ -1,5 +1,155 @@
 skaters:
 - category: SeniorMen
+  compID: Europeans 2026
+  country: GEO
+  name: Nika EGADZE
+  points: '273.00'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: ITA
+  name: Matteo RIZZO
+  points: '256.37'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: CZE
+  name: Georgii RESHTENKO
+  points: '238.27'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: SUI
+  name: Lukas BRITSCHGI
+  points: '236.90'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: EST
+  name: Aleksandr SELEVKO
+  points: '232.46'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: EST
+  name: Mihhail SELEVKO
+  points: '230.30'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: ISR
+  name: Tamir KUPERMAN
+  points: '230.17'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: UKR
+  name: Kyrylo MARSAK
+  points: '229.25'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: LAT
+  name: Deniss VASILJEVS
+  points: '227.51'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: SVK
+  name: Adam HAGARA
+  points: '224.27'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: ITA
+  name: Nikolaj MEMOLA
+  points: '223.52'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: SWE
+  name: Andreas NORDEBACK
+  points: '216.08'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: ITA
+  name: Daniel GRASSL
+  points: '215.33'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: CRO
+  name: Jari KESSLER
+  points: '201.46'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: LAT
+  name: Fedir KULISH
+  points: '201.22'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: FRA
+  name: Francois PITOT
+  points: '197.87'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: AUT
+  name: Maurizio ZANDRON
+  points: '196.25'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: ESP
+  name: Tomas-Llorenc GUARINO SABATE
+  points: '195.42'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: POL
+  name: Vladimir SAMOILOV
+  points: '193.49'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: MON
+  name: Davide LEWTON BRAIN
+  points: '192.87'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: SUI
+  name: Ean WEILER
+  points: '190.63'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: GER
+  name: Genrikh GARTUNG
+  points: '189.32'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: FIN
+  name: Matias LINDFORS
+  points: '183.63'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: GBR
+  name: Edward APPLEBY
+  points: '181.72'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: null
+  name: null
+  points: ''
+- category: SeniorMen
+  compID: Europeans 2026
+  country: POL
+  name: Jakub LOFEK
+  points: '59.76'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: TUR
+  name: Alp Eren OZKAN
+  points: '58.47'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: FRA
+  name: Kevin AYMOZ
+  points: '53.95'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: BUL
+  name: Alexander ZLATKOV
+  points: '50.90'
+- category: SeniorMen
+  compID: Europeans 2026
+  country: SLO
+  name: David SEDEJ
+  points: '46.18'
+- category: SeniorMen
   compID: Golden Spin 2025
   country: FRA
   name: Kevin AYMOZ
