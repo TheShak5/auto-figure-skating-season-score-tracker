@@ -84,7 +84,7 @@ url_list_icedance = ['https://www.isuresults.com/results/season2526/fc2026/CAT00
 competition_ID_men = ['Europeans 2026', 'Golden Spin 2025', 'GP Final', 'Warsaw Cup 2025', 'Tallinn Trophy 2025', 'GP Finland', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Cranberry Cup 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 competition_ID_women = ['4CC 2026', 'Europeans 2026', 'Golden Spin 2025', 'GP Final', 'Warsaw Cup 2025', 'Tallinn Trophy 2025', 'GP Finland', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Cranberry Cup 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 competition_ID_pairs = ['Europeans 2026', 'Golden Spin 2025', 'GP Final', 'Warsaw Cup 2025', 'GP Finland', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'John Nicks Pairs Challenge Inter. 2025', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nebelhorn Trophy 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
-competition_ID_icedance = ['4CC 2025', 'Europeans 2026', 'Golden Spin 2025', 'GP Final', 'Warsaw Cup 2025', 'Tallinn Trophy 2025', 'GP Finland', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
+competition_ID_icedance = ['4CC 2026', 'Europeans 2026', 'Golden Spin 2025', 'GP Final', 'Warsaw Cup 2025', 'Tallinn Trophy 2025', 'GP Finland', 'Graz Ice Challenge', 'GP Japan', 'GP Canada', 'GP China', 'GP France', 'Kinoshita Group Cup 2025', 'Lombardia Trophy 2025', 'Nepela Memorial 2025', 'Nebelhorn Trophy 2025', 'Denis Ten Memorial 2025', 'Trialeti Trophy 2025', 'Olympic Qualifier'] 
 
 url_list_combined = [url_list_men, url_list_women, url_list_pairs, url_list_icedance]
 competition_ID_list_combined = [competition_ID_men, competition_ID_women, competition_ID_pairs, competition_ID_icedance]
@@ -124,6 +124,10 @@ for i in range(len(category_IDs)):
             tds = row.find_all("td", recursive=False)
 
             if len(tds) >= 4:
+                
+                if tds[1].get_text(strip=True) == 'Final Not Reached':
+                    break
+                    
                 # Extract skater name
                 name_tag = tds[1].find("a")
                 name = name_tag.get_text(strip=True) if name_tag else None
